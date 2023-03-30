@@ -26,7 +26,7 @@ const About = () => (
             <div className="about__left-text">
               <Fade left>
                 <h1>
-                  <span class="future">Designing</span> Strategies <br />
+                  <span className="future">Designing</span> Strategies <br />
                   For Addressing <br /> <span class="future">Immigration </span>
                   Problems
                 </h1>

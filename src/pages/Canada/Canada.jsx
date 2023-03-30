@@ -2,8 +2,8 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import "./canada.css";
 import shape5 from "../../assets/Group 49.png";
-import line from "../../assets/line.png";
-import { Brand, Navbar } from "../../components";
+
+import { Navbar } from "../../components";
 import { Footer } from "../../containers";
 import biz from "../../assets/Group 218.svg";
 import min from "../../assets/minimum.svg";
@@ -13,7 +13,6 @@ import back from "../../assets/backimage.svg";
 import { Link } from "react-router-dom";
 
 import { WhyFanuun } from "./../../containers";
-import { CTA } from "./../../components";
 
 const Canada = () => (
   <div className="canada-wrapper">

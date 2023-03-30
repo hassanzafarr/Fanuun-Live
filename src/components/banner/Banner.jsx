@@ -10,7 +10,7 @@ const Banner = ({ text, img, textred }) => (
         <div className="banner__left-text">
           <Fade left>
             <h1>
-              {text} <span class="future">{textred}</span>
+              {text} <span className="future">{textred}</span>
             </h1>
           </Fade>
         </div>

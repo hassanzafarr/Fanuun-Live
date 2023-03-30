@@ -51,7 +51,7 @@ const Provide = () => {
   return (
     <div className="fanuun__possiblity-main">
       <div className="fanuun__possiblity-sub">
-        <img src={image} className="fBack" />
+        <img src={image} className="fBack" alt="img" />
         <div className="fanuun__provide-content-heading ">
           <Fade left>
             <h1 className="gradient__text">

@@ -1,5 +1,5 @@
 import React from "react";
-import footerback from "../../assets/fanunFooterr.jpg";
+
 import fanlogo from "../../assets/Group14.png";
 import "./footer.css";
 import { Link } from "react-router-dom";
@@ -19,7 +19,7 @@ const Footer = () => (
   <div className="immi__footer">
     <div className="immi__footer-links">
       <div className="immi__footer-links_logo">
-        <img src={fanlogo} />
+        <img src={fanlogo} alt="img" />
         <p>
           {" "}
           The <span style={{ color: "#FF1B03" }}> Art </span> Of Immigration
@@ -90,15 +90,6 @@ const Footer = () => (
             </div>
           </div>
         </div>
-        {/* <p>Karachi</p>
-        <p>Dubai</p>
-        <p>Vancouver</p>
-        <b>
-          <p>Email</p>
-        </b>
-        <p>info@fanuun.com</p> */}
-        {/* <p>Whatsapp us</p> */}
-        {/* <p>+1(647)873-4235</p> */}
       </div>
     </div>
 

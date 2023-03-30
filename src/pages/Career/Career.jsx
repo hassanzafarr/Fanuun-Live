@@ -26,7 +26,7 @@ const Career = () => {
                 <Fade left>
                   <h1>
                     Be a part of
-                    <span class="future"> FANUUN</span>
+                    <span className="future"> FANUUN</span>
                   </h1>
                 </Fade>
               </div>
@@ -35,7 +35,7 @@ const Career = () => {
                   <p>
                     FANUUN is always on the lookout for talented and dedicated
                     individuals to join our team. We offer a variety of exciting
-                    career opportunities, competitive salary pakages, and
+                    career opportunities, competitive salary pakage and
                     opportunities for professional growth and development
                   </p>
                 </Fade>

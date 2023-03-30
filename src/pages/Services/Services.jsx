@@ -2,8 +2,7 @@ import React from "react";
 import "./services.css";
 import { Link } from "react-router-dom";
 import ser from "../../assets/ser-banner.svg";
-import inter from "../../assets/inadivisor.svg";
-import inreg from "../../assets/inreg.svg";
+
 import ukflag from "../../assets/ukflag.png";
 import canada from "../../assets/canadaaa.png";
 import pro from "../../assets/proass.svg";
@@ -104,7 +103,7 @@ const Services = () => (
                     lawyers, and others to help us overcome the obstacles we
                     encountered throughout our immigration.
                   </p>
-                  <Link to="/us">
+                  <Link to="/uk">
                     <button type="button">View More</button>
                   </Link>
                 </Fade>
@@ -114,7 +113,7 @@ const Services = () => (
 
           <div className="service-main-right sec_padding">
             <div className="imgcon">
-              <img className="lefty" src={us} alt="ukflag" />
+              <img className="lefty" src={us} alt="usflag" />
             </div>
             <div className="services__possibility " id="possibility">
               <div className="services__possibility-content">
@@ -137,7 +136,7 @@ const Services = () => (
                     lawyers, and others to help us overcome the obstacles we
                     encountered throughout our immigration.
                   </p>
-                  <Link to="/uk">
+                  <Link to="/us">
                     <button type="button">View More</button>
                   </Link>
                 </Fade>

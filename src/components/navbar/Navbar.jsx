@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/fanun.svg";
 import "./navbar.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { BiChevronDown } from "react-icons/bi";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const routeToTest = () => {
-    navigate("/test");
-  };
+  // const routeToTest = () => {
+  //   navigate("/test");
+  // };
 
   return (
     <div className="immi__navbar">
@@ -28,8 +28,9 @@ const Navbar = () => {
           <p>
             <Link to="/solutions">Immigration</Link>
           </p>
-          <p>
-            <div class="dropdown">
+
+          <div class="dropdown">
+            <p>
               Services <BiChevronDown />
               <div class="dropdown-content">
                 <Link className="ser2">
@@ -56,8 +57,8 @@ const Navbar = () => {
                 </Link>
                 <Link to="/formation">Company Formation Services</Link>
               </div>
-            </div>
-          </p>
+            </p>
+          </div>
 
           <p>
             <Link to="/career">Career</Link>
@@ -98,8 +99,9 @@ const Navbar = () => {
               <p>
                 <Link to="/solutions">Immigration</Link>
               </p>
-              <p>
-                <div class="dropdown">
+
+              <div class="dropdown">
+                <p>
                   Services <BiChevronDown />
                   <div class="dropdown-content">
                     <Link className="ser2">
@@ -124,8 +126,8 @@ const Navbar = () => {
                     </Link>
                     <Link to="/formation">Company Formation Services</Link>
                   </div>
-                </div>
-              </p>
+                </p>
+              </div>
 
               <p>
                 <Link to="/career">Career</Link>

@@ -16,7 +16,7 @@ const CTA = ({ htag, htag2, red, ptext }) => (
       <h3>
         {htag}
 
-        <span class="future">{red}</span>
+        <span className="future">{red}</span>
       </h3>
       <br />
       <h3>{htag2}</h3>

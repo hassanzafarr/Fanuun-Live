@@ -1,8 +1,8 @@
 import React from "react";
 
-import { Widget, PopupButton } from "@typeform/embed-react";
+import { Widget } from "@typeform/embed-react";
 import "./test.css";
-import Fade from "react-reveal/Fade";
+
 export default function Test() {
   return (
     <div className="formContainer">

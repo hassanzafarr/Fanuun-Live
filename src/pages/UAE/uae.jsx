@@ -2,8 +2,8 @@ import React from "react";
 
 import "./uae.css";
 import shape5 from "../../assets/uae.png";
-import back from "../../assets/backimage.svg";
-import { Brand, Navbar } from "../../components";
+
+import { Navbar } from "../../components";
 import { Footer } from "../../containers";
 import Fade from "react-reveal/Fade";
 import freedom from "../../assets/generalIcons/11.svg";

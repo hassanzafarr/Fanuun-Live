@@ -113,8 +113,9 @@ function Formation() {
             <div className="form__left-text">
               <Fade left>
                 <h1>
-                  Company <span class="future"> Incorporation Services</span> in{" "}
-                  <span class="future">Saudia Arabia </span>
+                  Company{" "}
+                  <span className="future"> Incorporation Services</span> in{" "}
+                  <span className="future">Saudia Arabia </span>
                 </h1>
               </Fade>
             </div>
@@ -456,10 +457,10 @@ function Formation() {
         </div>
         <div className="fcontact__right-text">
           <Fade right>
-            <div class="fcontact__section-form">
+            <div className="fcontact__section-form">
               <input
                 type="text"
-                class="form__input-fcontact"
+                className="form__input-fcontact"
                 placeholder="First Name"
                 id="name"
                 value={name}
@@ -467,7 +468,7 @@ function Formation() {
               ></input>
               <input
                 type="text"
-                class="form__input-fcontact"
+                className="form__input-fcontact"
                 placeholder="Email"
                 id="email"
                 value={email}
@@ -476,17 +477,17 @@ function Formation() {
 
               <textarea
                 type="text"
-                class="form__input-fcontact"
+                className="form__input-fcontact"
                 placeholder="Message"
                 id="message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
             </div>
-            <div class="fcontact__section-form">
+            <div className="fcontact__section-form">
               <input
                 type="text"
-                class="form__input-fcontact"
+                className="form__input-fcontact"
                 placeholder="Last Name"
                 id="name"
                 value={name}
@@ -494,7 +495,7 @@ function Formation() {
               ></input>
               <input
                 type="text"
-                class="form__input-fcontact"
+                className="form__input-fcontact"
                 placeholder="Mobile No"
                 id="phone"
                 value={phone}
@@ -502,7 +503,7 @@ function Formation() {
               ></input>
               <input
                 type="text"
-                class="form__input-fcontact"
+                className="form__input-fcontact"
                 placeholder="Services interested in"
                 id="email"
                 value={email}

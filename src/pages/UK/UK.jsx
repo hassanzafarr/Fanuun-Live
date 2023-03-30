@@ -3,7 +3,7 @@ import React from "react";
 import "./UK.css";
 import shape5 from "../../assets/Group 47.png";
 import back from "../../assets/backimage.svg";
-import { Brand, Navbar } from "../../components";
+import {  Navbar } from "../../components";
 import { Footer } from "../../containers";
 import Fade from "react-reveal/Fade";
 import freedom from "../../assets/freedom.svg";

@@ -28,7 +28,7 @@ const US = () => (
           <div className="us__possibility-content">
             <Fade top>
               <h1 className="gradient__text">
-                <span class="future"> US </span> Visas
+                <span className="future"> US </span> Visas
               </h1>
             </Fade>
           </div>

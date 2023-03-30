@@ -8,9 +8,9 @@ import USvisa from "./pages/US/US";
 import UKvisa from "./pages/UK/UK";
 import Contact from "./pages/Contact/Contact";
 import Canada from "./pages/Canada/Canada";
-import Formation from "./pages/Formation/Formation"
-import UAE from "./pages/UAE/uae"
-import Portugal from "./pages/PORTUGAL/portugal"
+import Formation from "./pages/Formation/Formation";
+import UAE from "./pages/UAE/uae";
+import Portugal from "./pages/PORTUGAL/portugal";
 // import Attest from "./pages/Services-subpage/Attestation/Attest";
 // import Document from "./pages/Services-subpage/Document-Page/Document";
 
@@ -47,7 +47,6 @@ function App() {
         <Route path="/sealed" element={<Sealed />} />
         <Route path="/screening" element={<Screening />} />
         <Route path="/translation" element={<Translation />} />
-
 
         <Route path="/test" element={<Test />} />
       </Routes>

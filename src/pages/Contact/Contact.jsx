@@ -100,8 +100,8 @@ const Contact = () => {
               <div className="contact__possibility-content">
                 <Fade bottom>
                   <h1 className="gradient__text">
-                    <span class="future"> Reach </span> Out to{" "}
-                    <span class="future"> Us</span>
+                    <span className="future"> Reach </span> Out to{" "}
+                    <span className="future"> Us</span>
                   </h1>
                 </Fade>
               </div>
@@ -121,7 +121,7 @@ const Contact = () => {
                   </h1>
                   <p>
                     Please reach us by email
-                    <span class="future"> info@fanuun.com</span>
+                    <span className="future"> info@fanuun.com</span>
                   </p>
                 </Fade>
               </div>
