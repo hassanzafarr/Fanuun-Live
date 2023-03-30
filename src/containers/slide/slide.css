@@ -1,0 +1,73 @@
+.immi__possiblity-mainn {
+  position: relative;
+  margin-bottom: 10rem;
+  margin-top: 20rem;
+}
+.immi__possibilityy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.immi__possibility-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+/* .caro-cont {
+  margin-left: 20rem;
+} */
+.box {
+  margin-bottom: 2rem;
+  height: 95%;
+}
+.one-click {
+  position: absolute;
+  min-height: 30rem;
+  background-color: #f9f9f9;
+  top: -14rem;
+  padding: 2rem 4rem;
+  border-radius: 20px;
+}
+.one-click h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+  color: var(--color-head);
+}
+.fan_img img {
+  position: absolute;
+  left: 0;
+  max-width: 34rem;
+  top: -5rem;
+}
+.pc_slider{
+  display: block;
+}
+.phone_slider{
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  .phone_slider{
+    display: block;
+  }
+  .pc_slider{
+    display: none;
+  }
+  .one-click h1 {
+    font-size: 25px;
+  }
+  .fan_img img {
+    max-width: 26rem;
+
+    top: 1rem;
+  }
+  .immi__possiblity-mainn {
+    margin-bottom: 1rem;
+  }
+}
