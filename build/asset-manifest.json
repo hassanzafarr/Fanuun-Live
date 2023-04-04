@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.23ee44a0.css",
-    "main.js": "/static/js/main.e4eec40a.js",
+    "main.css": "/static/css/main.7d14c0aa.css",
+    "main.js": "/static/js/main.887402b7.js",
     "static/media/Phone banner 01.gif": "/static/media/Phone banner 01.a220e0bb492224577ee1.gif",
     "static/media/01.gif": "/static/media/01.4706faf2527e61056517.gif",
     "static/media/Animation.gif": "/static/media/Animation.09f102b384e93ace7b9c.gif",
@@ -18,10 +18,8 @@
     "static/media/about1.png": "/static/media/about1.048a8241ca9b07b67c5b.png",
     "static/media/united-arab-png.png": "/static/media/united-arab-png.fbfc9d70746f5777bd40.png",
     "static/media/translation.png": "/static/media/translation.219be060dec638e254e9.png",
-    "static/media/fanunFooterr.jpg": "/static/media/fanunFooterr.d3f0b642ab32a94129e6.jpg",
     "static/media/document.png": "/static/media/document.1939793d3264e2335873.png",
     "static/media/about2.png": "/static/media/about2.8530d1aa059ac78f77c0.png",
-    "static/media/banner-image.png": "/static/media/banner-image.078306038b23af8ff070.png",
     "static/media/backimage.svg": "/static/media/backimage.f7224f3622dbc202b5c3e9ad56adbd65.svg",
     "static/media/Group 46.png": "/static/media/Group 46.9595a81934c84d242113.png",
     "static/media/fanuunWebFooter.jpg": "/static/media/fanuunWebFooter.4c12f326cfb3dd5c7a46.jpg",
@@ -155,16 +153,15 @@
     "static/media/pharmacy.svg": "/static/media/pharmacy.cb97c7d561476f40bb4b7e0a2b4e720f.svg",
     "static/media/link.svg": "/static/media/link.1c7c1adede60ad6f779b942171c1c756.svg",
     "static/media/twitter.svg": "/static/media/twitter.95bd7e8314aaf0215566a027222c6e00.svg",
-    "static/media/sidefooter.svg": "/static/media/sidefooter.bc88b16e229b086f176391b4977f77fc.svg",
     "index.html": "/index.html",
     "static/media/1.svg": "/static/media/1.01bbb0c5029673fe539419f7232f429f.svg",
     "static/media/logowhite.svg": "/static/media/logowhite.011d7f5c21cced863dbb9f99836c90ff.svg",
     "static/media/ffacebook.svg": "/static/media/ffacebook.ad412c5ec1f4043041d3d8ddd8541cfb.svg",
-    "main.23ee44a0.css.map": "/static/css/main.23ee44a0.css.map",
-    "main.e4eec40a.js.map": "/static/js/main.e4eec40a.js.map"
+    "main.7d14c0aa.css.map": "/static/css/main.7d14c0aa.css.map",
+    "main.887402b7.js.map": "/static/js/main.887402b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.23ee44a0.css",
-    "static/js/main.e4eec40a.js"
+    "static/css/main.7d14c0aa.css",
+    "static/js/main.887402b7.js"
   ]
 }

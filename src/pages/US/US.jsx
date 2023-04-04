@@ -89,7 +89,7 @@ const US = () => (
               <div className="container-a">
                 <img src={person} alt="person" />
                 <p>
-                  Persons of exceptional <br /> ability
+                  People of exceptional <br /> ability
                 </p>
               </div>
               <div className="container-a">
@@ -119,7 +119,7 @@ const US = () => (
           <div className="us__section-ability-content">
             <Fade bottom>
               <h1 style={{ color: "#060056" }}>
-                Persons with Exceptional Ability
+                People with Exceptional Ability
               </h1>
               <p style={{ marginLeft: "2rem" }}>
                 To be classified as a person with exceptional ability, you must
@@ -254,7 +254,7 @@ const US = () => (
           <div className="us__section-intro-content persons_main_div">
             <Fade bottom>
               <h1 className="gradient__text">
-                Persons Holding Advanced Degrees
+                People Holding Advanced Degrees
               </h1>
               <p style={{ width: "100%" }}>
                 To be classified as a person holding an advanced degree, you

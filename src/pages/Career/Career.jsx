@@ -35,7 +35,7 @@ const Career = () => {
                   <p>
                     FANUUN is always on the lookout for talented and dedicated
                     individuals to join our team. We offer a variety of exciting
-                    career opportunities, competitive salary pakage and
+                    career opportunities, competitive salary packages and
                     opportunities for professional growth and development
                   </p>
                 </Fade>

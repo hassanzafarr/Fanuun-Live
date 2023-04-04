@@ -1,15 +1,16 @@
 .slider_banner {
   /* min-height: 700px; */
-  height: 1000px;
+  height: 800px;
   width: 100%;
   /* background-color: #000; */
 }
 
 .slider_main_div {
   width: 100%;
-  height: 1000px;
+  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .slide_main_content_div {
@@ -106,11 +107,11 @@
 
 @media screen and (max-width: 1400px) {
   .slider_banner {
-    height: 800px;
+    height: 600px;
   }
 
   .slider_main_div {
-    height: 800px;
+    height: 600px;
   }
 }
 
@@ -121,9 +122,6 @@
 
   .slider_main_div {
     height: 500px;
-  }
-
-  .slider_main_div {
     background-size: contain;
   }
 
