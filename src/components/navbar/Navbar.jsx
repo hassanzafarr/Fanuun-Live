@@ -42,7 +42,7 @@ const Navbar = () => {
                     <Link to="/uk">UK</Link>
                     <Link to="/canada">Canada</Link>
                     <Link to="/uae">UAE</Link>
-                    <Link to="/portugal">Portugal</Link>
+                    <Link to="/germany">Germany</Link>
                   </div>
                 </Link>
                 <Link className="ser2">
@@ -55,7 +55,13 @@ const Navbar = () => {
                     <Link to="/translation">Translation Services </Link>
                   </div>
                 </Link>
-                <Link to="/formation">Company Formation Services</Link>
+                <Link className="ser2">
+                  Company Formation Services <BiChevronDown />
+                  <div className="dropdown-submenu">
+                    <Link to="/formation">KSA</Link>
+                    <Link to="/uaeincop">UAE</Link>
+                  </div>
+                </Link>
               </div>
             </p>
           </div>
@@ -68,6 +74,7 @@ const Navbar = () => {
           </p>
         </div>
       </div>
+
       <div className="immi__navbar-sign">
         {/* <button type="button" onClick={routeToTest}>
           Take a test
@@ -111,7 +118,7 @@ const Navbar = () => {
                         <Link to="/uk">UK</Link>
                         <Link to="/canada">Canada</Link>
                         <Link to="/uae">UAE</Link>
-                        <Link to="/portugal">Portugal</Link>
+                        <Link to="/germany">Germany</Link>
                       </div>
                     </Link>
                     <Link className="ser2">
@@ -124,7 +131,13 @@ const Navbar = () => {
                         <Link to="/translation">Translation Services </Link>
                       </div>
                     </Link>
-                    <Link to="/formation">Company Formation Services</Link>
+                    <Link className="ser2">
+                      Company Formation Services <BiChevronDown />
+                      <div className="dropdown-submenu">
+                        <Link to="/formation">KSA</Link>
+                        <Link to="/uaeincop">UAE</Link>
+                      </div>
+                    </Link>
                   </div>
                 </p>
               </div>

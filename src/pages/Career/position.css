@@ -64,6 +64,14 @@
   min-width: 150px;
 }
 
+.position__right-text p{
+  margin-top: 1rem;
+ color: rgb(0, 0, 0);
+  font-family: var(--font-family2);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
 @media screen and (max-width: 650px) {
   .position__cta {
     flex-direction: column;

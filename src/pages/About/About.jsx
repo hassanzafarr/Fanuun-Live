@@ -16,11 +16,7 @@ const About = () => (
       <div className="section__padding1">
         <div
           className="about__possiblity-main "
-          //   style={{
-          //     backgroundImage: `url(${image})`,
-          //     backgroundRepeat: "no-repeat",
-          //     backgroundSize: "contain",s
-          //   }}
+        
         >
           <div className="about__possibilitytop " id="possibility">
             <div className="about__left-text">
@@ -111,13 +107,15 @@ const About = () => (
               </Fade>
             </div>
           </div>
+
+          
         </div>
         <Expect />
         <Stream />
       </div>
     </div>
     <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
-    {/* <Brand /> */}
+    
     <Footer />
   </div>
 );

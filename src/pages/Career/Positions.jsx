@@ -11,11 +11,13 @@ const Position = () => {
 
   function onSubmit() {
     var data = new FormData();
+    if (data){
     data.append("profileImg", selectedFile);
+    console.log(data)
 
     var config = {
       method: "post",
-      url: "http://localhost:5000/user-profile",
+      url: "https://backend.fanuun.com:8000/user-profile",
       data: data,
     };
     axios(config)
@@ -33,6 +35,14 @@ const Position = () => {
         console.log(error);
       });
   }
+  else {
+    return MySwal.fire({
+        title: <h2 className="swal-css">Please Upload Your Resume</h2>,
+        icon: "error",
+      });
+  }
+  
+}
 
   return (
     <div className="position__container section__padding">
@@ -50,6 +60,9 @@ const Position = () => {
           <button type="button" onClick={onSubmit}>
             Upload
           </button>
+          <div className="position__right-text">
+            <p>Only jpeg, png and pdf allowed</p>
+          </div>
         </div>
       </div>
     </div>

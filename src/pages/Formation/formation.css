@@ -318,13 +318,7 @@ input {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .fcontact__right-text {
-    justify-content: center;
-  }
-
-  .fcontact__right-text {
-    flex-direction: column;
-  }
+  
 
   .fcontact__left-text {
     margin: 2rem;

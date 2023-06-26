@@ -47,6 +47,7 @@ function Formation() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [phone, setPhone] = useState("");
+  const [services, setService] = useState("")
   const MySwal = withReactContent(Swal);
   const captchaRef = useRef(null);
 
@@ -55,6 +56,7 @@ function Formation() {
     setEmail("");
     setMessage("");
     setPhone("");
+    setService("")
   }
   function onChange(value) {
     console.log("Captcha value:", value);
@@ -70,10 +72,11 @@ function Formation() {
         email: email,
         phone: phone,
         message: message,
+        services : services
       });
       var config = {
         method: "post",
-        url: "http://localhost:5000/api/user/addquery",
+        url: "https://backend.fanuun.com:8000/api/user/addquery",
 
         headers: {
           "Content-Type": "application/json",
@@ -461,7 +464,7 @@ function Formation() {
               <input
                 type="text"
                 className="form__input-fcontact"
-                placeholder="First Name"
+                placeholder="Full Name"
                 id="name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -485,14 +488,7 @@ function Formation() {
               ></textarea>
             </div>
             <div className="fcontact__section-form">
-              <input
-                type="text"
-                className="form__input-fcontact"
-                placeholder="Last Name"
-                id="name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              ></input>
+              
               <input
                 type="text"
                 className="form__input-fcontact"
@@ -505,9 +501,9 @@ function Formation() {
                 type="text"
                 className="form__input-fcontact"
                 placeholder="Services interested in"
-                id="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                id="services"
+                value={services}
+                onChange={(e) => setService(e.target.value)}
               ></input>
               <br />
               <ReCAPTCHA

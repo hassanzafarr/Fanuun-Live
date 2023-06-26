@@ -10,9 +10,10 @@ import Contact from "./pages/Contact/Contact";
 import Canada from "./pages/Canada/Canada";
 import Formation from "./pages/Formation/Formation";
 import UAE from "./pages/UAE/uae";
-import Portugal from "./pages/PORTUGAL/portugal";
-// import Attest from "./pages/Services-subpage/Attestation/Attest";
-// import Document from "./pages/Services-subpage/Document-Page/Document";
+import GERMANY from "./pages/Germany/germany"
+
+import UaeIncorporation from "./pages/UaeIncororation/uaeIncorporation";
+
 
 import {
   Attest,
@@ -39,8 +40,10 @@ function App() {
         <Route path="/uk" element={<UKvisa />} />
         <Route path="/us" element={<USvisa />} />
         <Route path="/uae" element={<UAE />} />
+        <Route path="/uaeincop" element={<UaeIncorporation />} />
         <Route path="/canada" element={<Canada />} />
-        <Route path="/portugal" element={<Portugal />} />
+        <Route path="/germany" element={<GERMANY />} />
+
         <Route path="/formation" element={<Formation />} />
         <Route path="/attest" element={<Attest />} />
         <Route path="/document" element={<Document />} />

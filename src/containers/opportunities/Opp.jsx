@@ -29,7 +29,9 @@ function Opp() {
                 world and is doing well in surveys on quality of life
               </p>
             </div>
-            <NavLink className='navLinkReadMore' to='/canada'>Read More</NavLink>
+            <NavLink className="navLinkReadMore" to="/canada">
+              Read More
+            </NavLink>
           </div>
 
           <div className="card__container">
@@ -44,7 +46,9 @@ function Opp() {
                 may choose to immigrate to US.
               </p>
             </div>
-            <NavLink className='navLinkReadMore' to='/us'>Read More</NavLink>
+            <NavLink className="navLinkReadMore" to="/us">
+              Read More
+            </NavLink>
           </div>
 
           <div className="card__container">
@@ -59,7 +63,9 @@ function Opp() {
                 Economic market & Work opportunities are two main reasons.
               </p>
             </div>
-            <NavLink className='navLinkReadMore' to='/uk'>Read More</NavLink>
+            <NavLink className="navLinkReadMore" to="/uk">
+              Read More
+            </NavLink>
           </div>
         </div>
       </Fade>

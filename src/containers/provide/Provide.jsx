@@ -14,6 +14,9 @@ import dataa from "../../lotties/95561-data-analyst.json";
 
 import Lottie from "react-lottie";
 import high from "../../lotties/120404-business-target-achievement.json";
+const hello = () => {
+  
+}
 
 const Provide = () => {
   const lottiegif = {

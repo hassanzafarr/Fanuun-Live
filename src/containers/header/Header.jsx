@@ -45,21 +45,21 @@ const Header = () => {
               </div>
             </div>
           </div>
+
+
           <div className="each-slide-effect">
             <div
               className="slider_main_div"
               id="slider2"
-              // style={{
-              //   backgroundImage: `url(${slider2})`,
-              // }}
+            
             >
               <div className="slide_main_content_div">
                 <div className="slider_left_div">
-                  <h1>Job Seeker Visa in Portugal </h1>
+                  <h1>Job Seeker Visa in Germany </h1>
                   <p>
-                    Explore employment & residential opportunities in Portugal
+                    Explore employment & residential opportunities in Germany
                     with FANUUN
-                    {/* <br /> possiblities of immigrants */}
+              
                   </p>
                   <Link to="/portugal">
                     <button> More Details </button>
@@ -70,6 +70,8 @@ const Header = () => {
               </div>
             </div>
           </div>
+
+
           <div className="each-slide-effect">
             <div
               className="slider_main_div"
