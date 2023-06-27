@@ -209,6 +209,19 @@
   width: 70%;
   text-align: justify;
 }
+.img-conta2 {
+  flex: 1 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-right: 2rem;
+  padding: 1rem;
+}
+
+.img-conta2 img {
+  max-width: 17rem;
+}
 @media screen and (max-width: 1270px) {
   .canada__section-ability-content {
     width: 100%;
@@ -252,7 +265,7 @@
   }
 }
 @media screen and (max-width: 700px) {
-  .canada-container{
+  .canada-container {
     margin-top: 3rem;
   }
   .need_immigration_for_uk_inner_div2 {

@@ -143,7 +143,7 @@ const US = () => (
                       color: "#262453",
                     }}
                   >
-                    A.{" "}
+                    A.
                   </p>
                   <p style={{ margin: 0, textAlign: "justify" }}>
                     An official academic record showing the alien has a degree,
@@ -162,7 +162,7 @@ const US = () => (
                       margin: 0,
                     }}
                   >
-                    B.{" "}
+                    B.
                   </p>
                   <p style={{ margin: 0 }}>
                     Letters documenting at least ten years of full-time
@@ -179,7 +179,7 @@ const US = () => (
                       margin: 0,
                     }}
                   >
-                    C.{" "}
+                    C.
                   </p>
                   <p style={{ margin: 0 }}>
                     A license to practice the profession or certification for a
@@ -196,7 +196,7 @@ const US = () => (
                       margin: 0,
                     }}
                   >
-                    D.{" "}
+                    D.
                   </p>
                   <p style={{ margin: 0 }}>
                     Evidence that you command a salary or other remuneration for
@@ -213,7 +213,7 @@ const US = () => (
                       margin: 0,
                     }}
                   >
-                    E.{" "}
+                    E.
                   </p>
                   <p style={{ margin: 0 }}>
                     Membership in professional associations
@@ -229,7 +229,7 @@ const US = () => (
                       margin: 0,
                     }}
                   >
-                    F.{" "}
+                    F.
                   </p>
                   <p style={{ margin: 0 }}>
                     Documents which prove recognition for achievements and
@@ -259,7 +259,7 @@ const US = () => (
               <p style={{ width: "100%" }}>
                 To be classified as a person holding an advanced degree, you
                 must possess a master's degree or a bachelor's degree with at
-                least five years progressive post-bachelor degree experience.{" "}
+                least five years progressive post-bachelor degree experience.
                 <br /> Your Occupation Serves the National Interest The term
                 "national interest" is not defined in law. However, the USCIS
                 Office of Administrative Appeals has developed a list of factors
@@ -340,7 +340,7 @@ const US = () => (
               >
                 <img src={request} alt="request" width={100} />
                 <p>
-                  Requests from Interested <br /> U.S. Government <br />{" "}
+                  Requests from Interested <br /> U.S. Government <br />
                   Agencies
                 </p>
               </div>

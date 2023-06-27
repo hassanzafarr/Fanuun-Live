@@ -24,27 +24,19 @@ const Canada = () => {
     "Access to a global market",
     "Free trade agreements between Canada and the US.",
     "Canada ranks as one of the best in terms of quality of life",
-    "Marriage Registration, Un-Marriage/Bachelorhood, Divorce/Separation Certificate From NADRA",
-    "Police Character/Clearance Certificate",
-    "Domicile/Permanent Residence Certificate",
+    "Quick pathway to PR – in as little as 12 months.",
   ];
   const data2 = [
-    "Birth Certificate (NADRA)",
-    "Non Availability of Birth Certificate (KMC)",
-    "Death Certificate (NADRA)",
-    "NADRA Family Registration Certificate (FRC)",
-    "Marriage Registration, Un-Marriage/Bachelorhood, Divorce/Separation Certificate From NADRA",
-    "Police Character/Clearance Certificate",
-    "Domicile/Permanent Residence Certificate",
+    "Step 1: Meeting the eligibility requirements.",
+    "Step 2: Drafting a business plan.",
+    "Step 3: Obtaining a Letter of Support (Loss) from a designated organization. ",
+    "Step 4: Applying for Permanent Residence.",
   ];
   const data3 = [
-    "Birth Certificate (NADRA)",
-    "Non Availability of Birth Certificate (KMC)",
-    "Death Certificate (NADRA)",
-    "NADRA Family Registration Certificate (FRC)",
-    "Marriage Registration, Un-Marriage/Bachelorhood, Divorce/Separation Certificate From NADRA",
-    "Police Character/Clearance Certificate",
-    "Domicile/Permanent Residence Certificate",
+    "Include information about your team members – their professional background and responsibilities.",
+    "Explain your innovative business idea in a simple but persuasive manner.",
+    "Add clear details about your financials – starting cost, burn rate, etc.",
+    "Explain the present state of the business – idea phase? Product prototype phase?",
   ];
   return (
     <div className="canada-wrapper">
@@ -186,7 +178,7 @@ const Canada = () => {
                 </div>
               </Fade>
               <Fade right>
-                <div className="img-cont2">
+                <div className="img-conta2">
                   <img src={can1} alt="document" />
                 </div>
               </Fade>
@@ -203,7 +195,7 @@ const Canada = () => {
                 </div>
               </Fade>
               <Fade right>
-                <div className="img-cont2">
+                <div className="img-conta2">
                   <img src={can2} alt="document" />
                 </div>
               </Fade>
@@ -220,12 +212,236 @@ const Canada = () => {
                 </div>
               </Fade>
               <Fade right>
-                <div className="img-cont2">
+                <div className="img-conta2">
                   <img src={can3} alt="document" />
                 </div>
               </Fade>
             </div>
+            {/* FAQ */}
+            <div
+              className="us__section-ability"
+              style={{ borderColor: "white" }}
+            >
+              <div className="us__section-ability-content">
+                <Fade bottom>
+                  <h1 style={{ color: "#060056" }}>
+                    Canada Start-Up Visa: FAQs
+                  </h1>
 
+                  <div
+                    style={{
+                      width: "100%",
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: 5,
+                      marginBottom: "2rem",
+                    }}
+                  >
+                    <div style={{ display: "flex", gap: 10 }}>
+                      <p
+                        style={{
+                          fontSize: 20,
+                          fontWeight: "bold",
+                          color: "#ed1b2a",
+                        }}
+                      >
+                        Q.
+                      </p>
+                      <p
+                        style={{
+                          margin: 0,
+                          textAlign: "justify",
+                          color: "#060056",
+                          fontWeight: "500",
+                        }}
+                      >
+                        Is the Start-Up Visa a pathway for permanent residency?
+                      </p>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10, marginBottom: 40 }}>
+                      <p
+                        style={{
+                          fontSize: 20,
+                          fontWeight: "bold",
+                          color: "#262453",
+                          margin: 0,
+                          fontWeight: "500",
+                        }}
+                      >
+                        A.
+                      </p>
+                      <p style={{ margin: 0 }}>
+                        Yes. It is one of the quickest pathways, allowing
+                        applicants to obtain PR within as little as 12 months.
+                      </p>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10 }}>
+                      <p
+                        style={{
+                          fontSize: 20,
+                          fontWeight: "bold",
+                          color: "#ed1b2a",
+                          fontWeight: "500",
+                        }}
+                      >
+                        Q.
+                      </p>
+                      <p
+                        style={{
+                          margin: 0,
+                          textAlign: "justify",
+                          color: "#060056",
+                          fontWeight: "500",
+                        }}
+                      >
+                        What is the application acceptance/approval rate for the
+                        Start-Up Visa program?
+                      </p>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10, marginBottom: 40 }}>
+                      <p
+                        style={{
+                          fontSize: 20,
+                          fontWeight: "bold",
+                          color: "#262453",
+                          margin: 0,
+                        }}
+                      >
+                        A.
+                      </p>
+                      <p style={{ margin: 0 }}>
+                        The Start-Up Visa program has a relatively high approval
+                        rate of more than 75%.
+                      </p>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10 }}>
+                      <p
+                        style={{
+                          fontSize: 20,
+                          fontWeight: "bold",
+                          color: "#ed1b2a",
+                        }}
+                      >
+                        Q.
+                      </p>
+                      <p
+                        style={{
+                          margin: 0,
+                          textAlign: "justify",
+                          color: "#060056",
+                          fontWeight: "500",
+                        }}
+                      >
+                        Do I need to apply for a work permit with the Start-Up
+                        Visa?
+                      </p>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10, marginBottom: 40 }}>
+                      <p
+                        style={{
+                          fontSize: 20,
+                          fontWeight: "bold",
+                          color: "#262453",
+                          margin: 0,
+                        }}
+                      >
+                        A.
+                      </p>
+                      <p style={{ margin: 0 }}>
+                        No, Start-Up Visa applicants do not need to apply for a
+                        work permit. Although the option to apply for a
+                        Temporary Work Permit is available to applicants.
+                      </p>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10 }}>
+                      <p
+                        style={{
+                          fontSize: 20,
+                          fontWeight: "bold",
+                          color: "#ed1b2a",
+                        }}
+                      >
+                        Q.
+                      </p>
+                      <p
+                        style={{
+                          margin: 0,
+                          textAlign: "justify",
+                          color: "#060056",
+                          fontWeight: "500",
+                        }}
+                      >
+                        What is the processing time for the Start-Up Visa?
+                      </p>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10, marginBottom: 40 }}>
+                      <p
+                        style={{
+                          fontSize: 20,
+                          fontWeight: "bold",
+                          color: "#262453",
+                          margin: 0,
+                        }}
+                      >
+                        A.
+                      </p>
+                      <p style={{ margin: 0 }}>
+                        The current processing time is around 36 months.
+                      </p>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10 }}>
+                      <p
+                        style={{
+                          fontSize: 20,
+                          fontWeight: "bold",
+                          color: "#ed1b2a",
+                        }}
+                      >
+                        Q.
+                      </p>
+                      <p
+                        style={{
+                          margin: 0,
+                          textAlign: "justify",
+                          color: "#060056",
+                          fontWeight: "500",
+                        }}
+                      >
+                        Where can I find the list of designated organizations
+                        for obtaining the Letter of Support?
+                      </p>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10 }}>
+                      <p
+                        style={{
+                          fontSize: 20,
+                          fontWeight: "bold",
+                          color: "#262453",
+                          margin: 0,
+                        }}
+                      >
+                        A.
+                      </p>
+                      <p style={{ margin: 0 }}>
+                        The IRCC website lists designated organizations
+                        (business incubators, angel investor networks, and
+                        venture capital funds) for obtaining a Letter of
+                        Support.
+                      </p>
+                    </div>
+                  </div>
+                </Fade>
+              </div>
+            </div>
             {/* <WhyFanuun /> */}
           </div>
         </div>
