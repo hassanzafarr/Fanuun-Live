@@ -1,0 +1,111 @@
+.mainContainerFR {
+    width: 100%;
+    padding: 5%;
+    background: #f9f9f9;
+    border-radius: 20px;
+}
+
+.mainContainerFR h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.mainContainerFR p {
+    font-family: var(--font-family2);
+    font-weight: 600;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 2%;
+    width: 70%;
+    line-height: 20px;
+}
+
+.subContainerFR {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.leftContainerFR {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.rightContainerFR {
+    width: 50%;
+    border-left: 1px solid rgba(0, 0, 0, 0.319);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.subContainerFR h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+}
+
+.subContainerFR p {
+    font-family: var(--font-family2);
+    font-weight: 600;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 3.5%;
+    width: 70%;
+    line-height: 20px;
+    text-align: center;
+}
+
+.topPara {
+    margin-top: 6% !important;
+}
+
+.paraBottom {
+    margin-top: 5% !important;
+}
+
+@media screen and (max-width: 950px) {
+    .mainContainerFR h1 {
+        font-size: 25px;
+    }
+
+    .mainContainerFR p {
+        width: 90%;
+    }
+
+    .subContainerFR h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .mainContainerFR h1 {
+        font-size: 20px;
+        margin-top: 3%;
+    }
+
+    .mainContainerFR p {
+        width: 100%;
+        margin-top: 6%;
+    }
+
+    .subContainerFR h2 {
+        font-size: 14px;
+    }
+
+    .paraBottom {
+        margin: 14% 0px 5% 0px !important;
+    }
+
+    .subContainerFR {
+        margin-top: 10%;
+    }
+}

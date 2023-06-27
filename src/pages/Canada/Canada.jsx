@@ -17,6 +17,7 @@ import can2 from "../../assets/can-2.png";
 import can3 from "../../assets/can-3.png";
 
 import { WhyFanuun } from "./../../containers";
+import FinancialRequirements from "../../components/financialRequirements/financialRequirements ";
 
 const Canada = () => {
   const data = [
@@ -218,6 +219,7 @@ const Canada = () => {
               </Fade>
             </div>
             {/* FAQ */}
+            <FinancialRequirements />
             <div
               className="us__section-ability"
               style={{ borderColor: "white" }}
