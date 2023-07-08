@@ -10,10 +10,9 @@ import Contact from "./pages/Contact/Contact";
 import Canada from "./pages/Canada/Canada";
 import Formation from "./pages/Formation/Formation";
 import UAE from "./pages/UAE/uae";
-import GERMANY from "./pages/Germany/germany"
+import GERMANY from "./pages/Germany/germany";
 
 import UaeIncorporation from "./pages/UaeIncororation/uaeIncorporation";
-
 
 import {
   Attest,
@@ -26,6 +25,7 @@ import {
 import { Route, Routes } from "react-router-dom";
 import Test from "./pages/Test/Test";
 import ScrollToTop from "./ScrollToTop";
+import Privacy from "./pages/Privacy/Privacy";
 
 function App() {
   return (
@@ -43,6 +43,7 @@ function App() {
         <Route path="/uaeincop" element={<UaeIncorporation />} />
         <Route path="/canada" element={<Canada />} />
         <Route path="/germany" element={<GERMANY />} />
+        <Route path="/privacy" element={<Privacy />} />
 
         <Route path="/formation" element={<Formation />} />
         <Route path="/attest" element={<Attest />} />

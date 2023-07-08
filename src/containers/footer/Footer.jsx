@@ -58,6 +58,9 @@ const Footer = () => (
         <Link to="/contact" className="paraFooter">
           Contact Us
         </Link>
+        <Link to="/privacy" className="paraFooter">
+          Privacy Policy
+        </Link>
       </div>
       <div className="immi__footer-links_div">
         <b>

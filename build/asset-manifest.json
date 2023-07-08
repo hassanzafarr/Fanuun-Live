@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3beb6404.css",
-    "main.js": "/static/js/main.99532f61.js",
+    "main.css": "/static/css/main.82d62485.css",
+    "main.js": "/static/js/main.423ff1fc.js",
     "static/media/Phone banner 01.gif": "/static/media/Phone banner 01.a220e0bb492224577ee1.gif",
     "static/media/01.gif": "/static/media/01.4706faf2527e61056517.gif",
     "static/media/Animation.gif": "/static/media/Animation.09f102b384e93ace7b9c.gif",
@@ -27,6 +27,7 @@
     "static/media/screening2.svg": "/static/media/screening2.c071b790d52a5b58b935e36bf310faff.svg",
     "static/media/group29.png": "/static/media/group29.8c08f4f4b8a0c9b3d831.png",
     "static/media/passport.png": "/static/media/passport.8937d8fd2909768050c5.png",
+    "static/media/policy.png": "/static/media/policy.31c63fc174161272f37a.png",
     "static/media/Group_488.png": "/static/media/Group_488.f6cc72bcc49cf270c0cc.png",
     "static/media/hanshake.jpg": "/static/media/hanshake.bde99a1f5dcb62b00c2d.jpg",
     "static/media/04.jpg": "/static/media/04.fcef58e4a490bb6e47ef.jpg",
@@ -36,6 +37,8 @@
     "static/media/germany.png": "/static/media/germany.ba8bd6ad8c0554d6acc8.png",
     "static/media/uae.png": "/static/media/uae.a6bc3ea32bd78199bf2f.png",
     "static/media/docimg.svg": "/static/media/docimg.b0a392009f8d5bc1ce81f8185285f2dc.svg",
+    "static/media/can-2.png": "/static/media/can-2.f16225f06f1db0cf02b4.png",
+    "static/media/privacy.svg": "/static/media/privacy.af0e9d5787500f2fc155eb55d130b2dc.svg",
     "static/media/acom.png": "/static/media/acom.9eecc279f50f502811e8.png",
     "static/media/Group 688.svg": "/static/media/Group 688.aaf0e5cf9cd148f5d13119c131ad9d3a.svg",
     "static/media/ukflag.png": "/static/media/ukflag.4e7b7a6a683e0e72c7ed.png",
@@ -47,11 +50,13 @@
     "static/media/Group14.png": "/static/media/Group14.f7b1342680cc06a4b6c3.png",
     "static/media/Group_489.png": "/static/media/Group_489.854740e114beddf0157e.png",
     "static/media/girlsit.svg": "/static/media/girlsit.526b4b4acf7cbbf442ce1d32a7fa4ed2.svg",
+    "static/media/can-3.png": "/static/media/can-3.467f26dcebeb28a11e1b.png",
     "static/media/Group 480.svg": "/static/media/Group 480.47e0e3f385c6607f2ad0eb15ce2b019b.svg",
     "static/media/seeker.svg": "/static/media/seeker.cf8329d5460c387ac8d11d8e1f555b2d.svg",
     "static/media/career.png": "/static/media/career.b27e211d6607778602ec.png",
     "static/media/mobfooter.jpg": "/static/media/mobfooter.fcaf4e959e669f933876.jpg",
     "static/media/Group_491.png": "/static/media/Group_491.d89c1a3ca8dc6e3581a4.png",
+    "static/media/can-1.png": "/static/media/can-1.ea40145481c135292937.png",
     "static/media/bgPortugalJob.png": "/static/media/bgPortugalJob.3921d6bf203287ca1d4f.png",
     "static/media/edugirl.svg": "/static/media/edugirl.8361ccea800e7e0b8dad1a00a456f2f5.svg",
     "static/media/write.svg": "/static/media/write.48281d4390d1f68002414ae2f11936e4.svg",
@@ -165,11 +170,11 @@
     "static/media/1.svg": "/static/media/1.01bbb0c5029673fe539419f7232f429f.svg",
     "static/media/logowhite.svg": "/static/media/logowhite.011d7f5c21cced863dbb9f99836c90ff.svg",
     "static/media/ffacebook.svg": "/static/media/ffacebook.ad412c5ec1f4043041d3d8ddd8541cfb.svg",
-    "main.3beb6404.css.map": "/static/css/main.3beb6404.css.map",
-    "main.99532f61.js.map": "/static/js/main.99532f61.js.map"
+    "main.82d62485.css.map": "/static/css/main.82d62485.css.map",
+    "main.423ff1fc.js.map": "/static/js/main.423ff1fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.3beb6404.css",
-    "static/js/main.99532f61.js"
+    "static/css/main.82d62485.css",
+    "static/js/main.423ff1fc.js"
   ]
 }

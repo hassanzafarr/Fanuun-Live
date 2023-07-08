@@ -15,10 +15,12 @@ const Process = () => (
           <p>
             Facilitating the adaptation, We assist you in shaping your future
             and simplify your experience. Our expensive clientele continues to
+            expand, and we look forward to establishing a benchmark in the
+            immigration and Visa service market and pursuit of possibilities of
+            immigrants.
           </p>
         </Fade>
       </div>
-      <div></div>
 
       <div className="immi__possibility-image">
         <Fade right>

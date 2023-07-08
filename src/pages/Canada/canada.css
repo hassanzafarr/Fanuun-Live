@@ -268,6 +268,9 @@
   .canada-container {
     margin-top: 3rem;
   }
+  .img-conta2 {
+    justify-content: center;
+  }
   .need_immigration_for_uk_inner_div2 {
     width: 100%;
     display: flex;
