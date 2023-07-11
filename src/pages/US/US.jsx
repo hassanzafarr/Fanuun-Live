@@ -352,11 +352,11 @@ const US = () => (
         <div
           className="us__possibilitytop"
           id="possibility"
-          // style={{
-          //   backgroundImage: `url(${s1}) `,
-          //   backgroundRepeat: "no-repeat",
-          //   backgroundSize: "contain",
-          // }}
+        // style={{
+        //   backgroundImage: `url(${s1}) `,
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundSize: "contain",
+        // }}
         >
           <div className="us__left-text">
             <Fade left>
@@ -371,6 +371,297 @@ const US = () => (
           <div className="us__right-image">
             <Fade right>
               <img src={bulb} alt="bulb" />
+            </Fade>
+          </div>
+        </div>
+
+        <div
+          className="us__section-ability"
+          style={{ borderColor: "white" }}
+        >
+          <div className="us__section-ability-content">
+            <Fade bottom>
+              <h1 style={{ color: "#060056" }}>
+                US Start-Up Visa: FAQs
+              </h1>
+
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: 5,
+                  marginBottom: "2rem",
+                }}
+              >
+                <div style={{ display: "flex", gap: 10 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#ed1b2a",
+                    }}
+                  >
+                    Q.
+                  </p>
+                  <p
+                    style={{
+                      margin: 0,
+                      textAlign: "justify",
+                      color: "#060056",
+                      fontWeight: "500",
+                    }}
+                  >
+                    What are EB2 NIW 3 Prongs?
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10, marginBottom: 40 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#262453",
+                      margin: 0,
+                      fontWeight: "500",
+                    }}
+                  >
+                    A.
+                  </p>
+                  <p style={{ margin: 0 }}>
+                    The EB-2 NIW (Employment-Based Second Preference National Interest Waiver) category requires applicants to demonstrate eligibility based on three prongs or criteria. These three prongs are used to determine if the applicant qualifies for the national interest waiver, allowing them to self-petition for a green card without the need for a job offer or labor certification.
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#ed1b2a",
+                      fontWeight: "500",
+                    }}
+                  >
+                    Q.
+                  </p>
+                  <p
+                    style={{
+                      margin: 0,
+                      textAlign: "justify",
+                      color: "#060056",
+                      fontWeight: "500",
+                    }}
+                  >
+                    What is EB2 NIW Premium Processing?
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10, marginBottom: 40 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#262453",
+                      margin: 0,
+                    }}
+                  >
+                    A.
+                  </p>
+                  <p style={{ margin: 0 }}>
+                    The USCIS has specified that premium processing is not available for employment-based immigrant petitions filed under the EB-2 NIW category. This means that EB-2 NIW petitions do not qualify for the premium processing service.
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#ed1b2a",
+                    }}
+                  >
+                    Q.
+                  </p>
+                  <p
+                    style={{
+                      margin: 0,
+                      textAlign: "justify",
+                      color: "#060056",
+                      fontWeight: "500",
+                    }}
+                  >
+                    What is EB2 NIW Premium Processing Time?
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10, marginBottom: 40 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#262453",
+                      margin: 0,
+                    }}
+                  >
+                    A.
+                  </p>
+                  <p style={{ margin: 0 }}>
+                    Generally, USCIS processing times can range from several months to over a year for employment-based immigrant petitions. It is important to note that these are only estimates and processing times can change without prior notice.
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#ed1b2a",
+                    }}
+                  >
+                    Q.
+                  </p>
+                  <p
+                    style={{
+                      margin: 0,
+                      textAlign: "justify",
+                      color: "#060056",
+                      fontWeight: "500",
+                    }}
+                  >
+                    What are EB2 NIW Requirements/ new requirements?
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10, marginBottom: 40 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#262453",
+                      margin: 0,
+                    }}
+                  >
+                    A.
+                  </p>
+                  <p style={{ margin: 0 }}>
+                    To qualify for EB-2 NIW, you must demonstrate exceptional ability in your field, show that your work is in the national interest of the United States, possess an advanced degree or exceptional ability, and meet other general eligibility requirements for employment-based immigration.
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#ed1b2a",
+                    }}
+                  >
+                    Q.
+                  </p>
+                  <p
+                    style={{
+                      margin: 0,
+                      textAlign: "justify",
+                      color: "#060056",
+                      fontWeight: "500",
+                    }}
+                  >
+                    Can I self-petition for EB2 NIW without a job offer?
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10, marginBottom: 40 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#262453",
+                      margin: 0,
+                    }}
+                  >
+                    A.
+                  </p>
+                  <p style={{ margin: 0 }}>
+                    A: Yes, one of the unique aspects of the EB-2 NIW category is that it allows individuals to self-petition without a job offer from a U.S. employer. This gives you the freedom to pursue your career goals independently.
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#ed1b2a",
+                    }}
+                  >
+                    Q.
+                  </p>
+                  <p
+                    style={{
+                      margin: 0,
+                      textAlign: "justify",
+                      color: "#060056",
+                      fontWeight: "500",
+                    }}
+                  >
+                    What form required for EB2 NIW visa from Pakistan?
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10, marginBottom: 40 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#262453",
+                      margin: 0,
+                    }}
+                  >
+                    A.
+                  </p>
+                  <p style={{ margin: 0 }}>
+                    The primary form required for the EB-2 NIW visa application from Pakistan is Form I-140, Immigrant Petition for Alien Worker. This form is used to petition the U.S. Citizenship and Immigration Services (USCIS) to classify you as an employment-based immigrant under the EB-2 NIW category.
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#ed1b2a",
+                    }}
+                  >
+                    Q.
+                  </p>
+                  <p
+                    style={{
+                      margin: 0,
+                      textAlign: "justify",
+                      color: "#060056",
+                      fontWeight: "500",
+                    }}
+                  >
+                    What is EB2 NIW timeline 2023?
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: 10, marginBottom: 40 }}>
+                  <p
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#262453",
+                      margin: 0,
+                    }}
+                  >
+                    A.
+                  </p>
+                  <p style={{ margin: 0 }}>
+                    The processing times for EB-2 NIW petitions can vary and are influenced by factors such as USCIS workload, case complexity, and other external factors. It is recommended to regularly
+                  </p>
+                </div>
+              </div>
             </Fade>
           </div>
         </div>
