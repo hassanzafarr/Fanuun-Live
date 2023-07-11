@@ -1,0 +1,8 @@
+.bimg-cont {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.bimg-cont img {
+  max-width: 22rem;
+}

@@ -6,7 +6,7 @@ import { Footer } from "../../containers";
 import Banner from "../../components/banner/Banner";
 import privacy from "../../assets/privacy.svg";
 import docimg from "../../assets/policy.png";
-import edugirl from "../../assets/girlsit.svg";
+
 import { Info } from "../../components/info/Info";
 import CTA from "../../components/cta/CTA";
 import Fade from "react-reveal/Fade";

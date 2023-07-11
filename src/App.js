@@ -11,6 +11,7 @@ import Canada from "./pages/Canada/Canada";
 import Formation from "./pages/Formation/Formation";
 import UAE from "./pages/UAE/uae";
 import GERMANY from "./pages/Germany/germany";
+import Blog from "./pages/Blog/Blog";
 
 import UaeIncorporation from "./pages/UaeIncororation/uaeIncorporation";
 
@@ -44,6 +45,7 @@ function App() {
         <Route path="/canada" element={<Canada />} />
         <Route path="/germany" element={<GERMANY />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/blog" element={<Blog />} />
 
         <Route path="/formation" element={<Formation />} />
         <Route path="/attest" element={<Attest />} />
