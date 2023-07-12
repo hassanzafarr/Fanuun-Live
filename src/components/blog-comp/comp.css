@@ -4,5 +4,32 @@
   width: 100%;
 }
 .bimg-cont img {
-  max-width: 22rem;
+  max-width: 15rem;
+}
+.blog-caption h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 1rem 0;
+  color: #060056;
+}
+.blog-caption {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 700px) {
+  .bimg-cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .bimg-cont img {
+    max-width: 20rem;
+  }
+  .blog-caption {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }

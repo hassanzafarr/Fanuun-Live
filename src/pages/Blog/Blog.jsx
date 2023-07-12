@@ -6,12 +6,27 @@ import blogbanner from "../../assets/blog-banner.svg";
 import blogimg1 from "../../assets/blog1-img.png";
 import blogimg2 from "../../assets/blogimg2.png";
 import sec2img from "../../assets/sec2img.png";
+import bloge1 from "../../assets/Mask Group 38.png";
+import bloge2 from "../../assets/Mask Group 39.png";
+import bloge3 from "../../assets/Mask Group 40.png";
+import bloge4 from "../../assets/Mask Group 41.png";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 import CTA from "../../components/cta/CTA";
 import BlogComp from "../../components/blog-comp/blog-comp";
+import { Info } from "../../components/info/Info";
+import can1 from "../../assets/last-sec.png";
 
 const Blog = () => {
+  const data = [
+    "With a diverse and robust economy, the UK offers businesspersons the opportunity to start a business in various sectors, such as tech.",
+    "With the Start-Up visa, one of the significant advantages is that no investment funds are required. However, both visas require an endorsement from a UK body",
+    "As a global hub of commerce and trade, the UK offers excellent networking and connectivity opportunities to entrepreneurs, both locally and internationally. With some of the best educational institutes in the world, such as Oxford. ",
+    "Entrepreneurs will have access to a large pool of talented, multicultural, and educated individuals as potential employees.",
+    "Applicants can bring their dependents along and work another job besides their business.",
+  ];
+  const data2 =
+    "The UK offers two excellent business visa options: the Start-Up Visa and the Innovator Founder Visa. These visas allow entrepreneurs to establish an innovative business in the UK and stay there for 2-3 years.";
   return (
     <div className="screening__main-container">
       <Navbar />
@@ -66,12 +81,14 @@ const Blog = () => {
                 <div className="side-panel ">
                   <div>
                     <h1 style={{ fontSize: 17, lineHeight: 2 }}>
-                      Updates from the Canadian Immigration Policy & Plan 2023
+                      Emphasis on Visas for Advanced Degree Holders & Skilled
+                      Workers
                     </h1>
                     <p>
-                      There's some good news for businesspersons looking to
-                      invest in the US via the EB-5 visa. Based on the EB-5
-                      Reform and Integrity Act 2022.
+                      The Biden administration plans to increase the number of
+                      EB-2 visas available each year. It also plans to make it
+                      easier for foreign nationals with advanced degrees to
+                      qualify for EB-2 visas.
                     </p>
                     <Link to="/contact">
                       <button>Read More</button>
@@ -103,12 +120,12 @@ const Blog = () => {
                   </div>
                   <div className="blog-caption">
                     <h1>
-                      Updates from the Canadian Immigration Policy & Plan 2023
+                      Preparing a Business Visa Application that’s bound to
+                      succeed!
                     </h1>
                     <p>
-                      Canada is targeting 410,000 to 505,000 new permanent
-                      residents in the year 2023, according to the 2023–2025
-                      Immigration Levels Plan.
+                      Each country has specific requirements for its investor or
+                      startup business visa programs.
                     </p>
                     <Link to="/contact">
                       <button>Read More</button>
@@ -121,13 +138,12 @@ const Blog = () => {
                     <img src={blogimg2} alt="" />
                   </div>
                   <div className="blog-caption">
-                    <h1>
-                      Updates from the Canadian Immigration Policy & Plan 2023
-                    </h1>
+                    <h1>Let the Experts Guide You!</h1>
                     <p>
-                      Canada is targeting 410,000 to 505,000 new permanent
-                      residents in the year 2023, according to the 2023–2025
-                      Immigration Levels Plan.
+                      The visa application process is a complex matter. It is
+                      always best to seek expert help when applying for any visa
+                      application, especially for a business visa application
+                      owing to the added requirements.
                     </p>
                     <Link to="/contact">
                       <button>Read More</button>
@@ -137,27 +153,49 @@ const Blog = () => {
               </div>
               {/* Section Two */}
               {/* Section Three */}
-              <div className="blog-sec-three sec__padding ">
-                <BlogComp
-                  imgg={blogimg2}
-                  caption="Language Proficiency Varies with Immigration Programs"
-                  readtext="One key aspect to note is that the language proficiency required varies from immigration program to program and country to country."
-                />
-                <BlogComp
-                  imgg={blogimg2}
-                  caption="Language Proficiency Varies with Immigration Programs"
-                  readtext="One key aspect to note is that the language proficiency required varies from immigration program to program and country to country."
-                />
-                <BlogComp
-                  imgg={blogimg2}
-                  caption="Language Proficiency Varies with Immigration Programs"
-                  readtext="One key aspect to note is that the language proficiency required varies from immigration program to program and country to country."
-                />
-                <BlogComp
-                  imgg={blogimg2}
-                  caption="Language Proficiency Varies with Immigration Programs"
-                  readtext="One key aspect to note is that the language proficiency required varies from immigration program to program and country to country."
-                />
+              <Fade bottom>
+                <div className="blog-sec-three sec__padding ">
+                  <BlogComp
+                    imgg={bloge1}
+                    caption="Language Proficiency Varies with Immigration Programs"
+                    readtext="One key aspect to note is that the language proficiency required varies from immigration program to program and country to country."
+                  />
+                  <BlogComp
+                    imgg={bloge2}
+                    caption="Navigating the Intricacies of
+                  Employment-Based Visas"
+                    readtext="Employment-based visas, or work visas as commonly known, are among the most popular visa categories. "
+                  />
+                  <BlogComp
+                    imgg={bloge3}
+                    caption="Are you applying for a Business
+                  Visa? Here’s some advice"
+                    readtext="While the dos and don’ts and best practices related to applying for a business visa generally vary from one country to another."
+                  />
+                  <BlogComp
+                    imgg={bloge4}
+                    caption="Getting a Job Offer"
+                    readtext="Even though getting a job offer is a requirement for some Express Entry programs, such as the Federal Skilled Workers Program"
+                  />
+                </div>
+              </Fade>
+              {/* Section Three */}
+              <div className="doc__container-feature sec__padding ">
+                <Fade left>
+                  <div className="info__cont">
+                    <Info
+                      title="The UK Start-Up & Innovator Founder Visas"
+                      text={data2}
+                      isList={false}
+                    />
+                    <Info text={data} isList={true} />
+                  </div>
+                </Fade>
+                <Fade right>
+                  <div className="blog-img-cont">
+                    <img src={can1} alt="document" />
+                  </div>
+                </Fade>
               </div>
             </div>
           </Fade>

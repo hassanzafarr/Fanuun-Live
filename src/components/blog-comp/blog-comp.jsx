@@ -10,7 +10,7 @@ const BlogComp = ({ imgg, caption, readtext }) => {
           <img src={imgg} alt="" />
         </div>
         <div className="blog-caption">
-          <h1>{caption}</h1>
+          <h2>{caption}</h2>
           <p>{readtext}</p>
           <Link to="/contact">
             <button>Read More</button>
