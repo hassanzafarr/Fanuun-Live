@@ -27,6 +27,7 @@ import { Route, Routes } from "react-router-dom";
 import Test from "./pages/Test/Test";
 import ScrollToTop from "./ScrollToTop";
 import Privacy from "./pages/Privacy/Privacy";
+import PORTUGAL from "./pages/PORTUGAL/portugal";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/uaeincop" element={<UaeIncorporation />} />
         <Route path="/canada" element={<Canada />} />
         <Route path="/germany" element={<GERMANY />} />
+        <Route path="/portugal" element={<PORTUGAL />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/blog" element={<Blog />} />
 
