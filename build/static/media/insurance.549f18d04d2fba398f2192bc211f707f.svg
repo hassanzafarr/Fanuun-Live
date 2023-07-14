@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78.923" height="66.653" viewBox="0 0 78.923 66.653">
+    <g data-name="Group 697">
+        <g data-name="Group 119">
+            <path data-name="Path 1034" d="M79.923 7H1v59.192h78.923zm-3.288 55.9H4.288V10.288h72.347z" style="fill:#312b73" transform="translate(-1 .461)"/>
+            <path data-name="Path 1035" d="M33.308 35.375a8.223 8.223 0 0 0-6.743-8.075 8.144 8.144 0 0 0 1.81-5.082 8.221 8.221 0 1 0-16.442 0 8.135 8.135 0 0 0 1.81 5.082A8.223 8.223 0 0 0 7 35.375v11.51h26.308zM20.154 17.288a4.933 4.933 0 1 1-4.933 4.933 4.939 4.939 0 0 1 4.933-4.933zM30.019 43.6H10.288v-8.225a4.939 4.939 0 0 1 4.933-4.933h9.865a4.939 4.939 0 0 1 4.933 4.933zm8.221-24.667h11.51v3.288H38.24zm16.442 0h11.51v3.288H54.683zM38.24 27.154h4.933v3.288H38.24zm9.865 0h18.087v3.288H48.106zm-9.865 8.221h13.154v3.288H38.24zm21.375 0h6.577v3.288h-6.577zM38.24 43.6h3.288v3.288H38.24zm6.577 0h3.288v3.288h-3.288zm6.577 0h3.288v3.288h-3.288zm11.51 0h3.288v3.288H62.9z" transform="translate(2.865 4.971)" style="fill:#312b73"/>
+        </g>
+        <text data-name="+" transform="translate(57.773 24)" style="fill:#29246e;font-size:24px;font-family:Orbitron-Medium,Orbitron;font-weight:500"><tspan x="0" y="0">+</tspan></text>
+    </g>
+</svg>

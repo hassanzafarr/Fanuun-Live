@@ -357,40 +357,146 @@ const US = () => (
             <h1 className="heading-explore">
               What is Next to Explore?
             </h1>
-            <div class="m-4">
-    <div class="accordion" id="myAccordion">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">1. What is HTML?</button>									
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div class="card-body">
-                    <p>HTML stands for HyperText Markup Language. HTML is the standard markup language for describing the structure of web pages. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+            <div className="accordion-main">
+              <div class="accordion" id="myAccordion">
+            
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">What is the success rate of EB2 NIW approval?</button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                      <div class="card-body">
+                        <p>The success rate of EB2 NIW approval varies depending on several factors, including the strength of the applicant's case, the complexity of the case, and the current workload of the USCIS. However, according to the USCIS, the overall approval rate for EB2 NIW petitions was 88.8% in fiscal year 2022.</p>
+                      </div>
+                    </div>
+                  </div>
+               
+              
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Is it difficult to get an EB2 NIW?</button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                      <div class="card-body">
+                        <p>The difficulty of getting an EB2 NIW depends on the strength of your case. You have a good chance of success if you have strong qualifications and the evidence to support your case. However, if your case is weak, you may have difficulty getting approved.</p>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">How do I apply for an EB2 NIW?</button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                      <div class="card-body">
+                        <p>The application process for an EB2 NIW is as follows:
+                          File Form I-140, Immigrant Petition for Alien Worker.
+                          Submit supporting evidence, including letters of support from experts in your field,
+                          publications, and other documentation that demonstrates your qualifications and the national
+                          importance of your proposed endeavour
+                          Pay the filing fees.
+                          Wait for USCIS to adjudicate your case.</p>
+                      </div>
+                    </div>
+                  </div>
+                
+
+              </div>
+              <div class="accordion" id="myAccordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">What forms are required for an EB2 NIW visa?</button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                    <div class="card-body">
+                      <p>Form I-140, Immigrant Petition for Alien Worker
+                        Form ETA-750B, Application for Alien Employment Certification
+                        Supporting evidence letters from experts in your field, publications, and other documentation.
+                        The filing fees for EB2 NIW vary depending on the country of application.</p>
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">2. What is Bootstrap?</button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
-                <div class="card-body">
-                    <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFive">Can I self-petition for EB2 NIW without a job offer?</button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                    <div class="card-body">
+                      <p>Yes, one of the unique aspects of the EB-2 NIW category is that it allows individuals to self-petition without a job offer from a U.S. employer. This gives you the freedom to pursue your career goals independently.</p>
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">3. What is CSS?</button>                     
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div class="card-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">How long does it take to process an EB2 NIW application?</button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                    <div class="card-body">
+                      <p>The processing time for an EB2 NIW application can vary, but it typically takes between 12 and 18 months. However, the processing time can be longer if your case is complex or there are any delays in the adjudication process.</p>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div class="accordion" id="myAccordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven">Can I add a spouse to my Green Card application after my I-140 is submitted?</button>
+                  </h2>
+                  <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                    <div class="card-body">
+                      <p>Yes, after your I-140 is submitted and approved, your family members (spouses and unmarried children under 21) can apply with you for an adjustment of status or immigrant Visa.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseEight">Is the EB-2 NIW a good choice for Indians and Chinese?</button>
+                  </h2>
+                  <div id="collapseEight" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                    <div class="card-body">
+                      <p>An alternative option for applicants from these countries is the EB-1A category, which has current priority dates for all nationalities. Suppose you are ineligible for the EB-1A category. In that case, another approach is to apply for an EB-2 NIW to secure your priority date and potentially request an extension of your H-1B status while awaiting the availability of the Green Card. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNine">Does the EB-2 NIW give me work authorization?</button>
+                  </h2>
+                  <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                    <div class="card-body">
+                      <p>The approval of an EB-2 NIW does not provide work authorization on its own. If you are currently in the U.S., it is important to ensure that you possess a valid work visa, such as an O-1, H-1B, or E-2, in order to work legally. Additionally, you can simultaneously file for an adjustment of status, which typically takes 5-6 months, to obtain work authorization. To determine the most suitable option for your situation, we recommend consulting with our team for personalized guidance.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion" id="myAccordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTen">
+                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTen">What are the advantages of an EB2 NIW?</button>
+                  </h2>
+                  <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                    <div class="card-body">
+                      <p>There are several advantages to applying for an EB2 NIW, including:
+                        You do not need a job offer to apply for an EB2 NIW.
+                        The application process is typically faster than the labour certification
+                        process
+                        You are not subject to the annual numerical caps on employment-based
+                        green cards</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingEleven">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseEleven">What are the disadvantages of an EB2 NIW?</button>
+                  </h2>
+                  <div id="collapseEleven" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                    <div class="card-body">
+                      <p>The main disadvantage of an EB2 NIW is that the application process can be complex and time-consuming. You will need to gather significant evidence to support your case, and the process can take several years to complete.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-</div>
           </Fade>
         </div>
 

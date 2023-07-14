@@ -31,7 +31,7 @@
 .blog_section-content h1 {
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 21px;
+  font-size: 19px;
   line-height: 25px;
   margin: 1rem 0;
   color: #060056;
@@ -41,13 +41,13 @@
   color: var(--color-text);
   font-family: var(--font-family2);
   font-weight: 200;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 25px;
   margin: 1rem 0;
 }
 .blog_section-content button {
-  width: 150px;
-  height: 50px;
+  width: 170px;
+  height: 40px;
   font-family: Archivo;
   font-size: 15px;
   font-weight: bold;
@@ -57,6 +57,14 @@
   border: 1px solid #060056;
   box-shadow: 0px 0px 1px 0px #060056;
   cursor: pointer;
+}
+
+.Familiarization {
+  color: #060056 !important;
+  font-family: var(--font-family) !important;
+  font-size: 20px;
+  margin: 0 !important;
+  font-weight: 500 !important;
 }
 .bimg-cont {
   display: flex;

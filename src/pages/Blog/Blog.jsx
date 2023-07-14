@@ -6,6 +6,7 @@ import blogbanner from "../../assets/blog-banner.svg";
 import blogimg1 from "../../assets/blog1-img.png";
 import blogimg2 from "../../assets/blogimg2.png";
 import sec2img from "../../assets/sec2img.png";
+import guide_img from "../../assets/guide_img.png";
 import bloge1 from "../../assets/Mask Group 38.png";
 import bloge2 from "../../assets/Mask Group 39.png";
 import bloge3 from "../../assets/Mask Group 40.png";
@@ -33,7 +34,7 @@ const Blog = () => {
       <div className="main__container">
         <div className="section__container section__padding1">
           <div className="banner-container ">
-            <Banner text="Blog " textred="Policy" img={blogbanner} />
+            <Banner text="Our " textred="Blog" img={blogbanner} />
           </div>
           <Fade bottom>
             <div className="blog_section-content sec__padding">
@@ -65,12 +66,11 @@ const Blog = () => {
                   </div>
                   <div className="blog-caption">
                     <h1>
-                      Updates from the Canadian Immigration Policy & Plan 2023
+                      Emphasis on Visas for Advanced
+                      Degree Holders & Skilled Workers
                     </h1>
                     <p>
-                      Canada is targeting 410,000 to 505,000 new permanent
-                      residents in the year 2023, according to the 2023–2025
-                      Immigration Levels Plan.
+                      The Biden administration plans to increase the number of EB-2 visas available each year. It also plans to make it easier for foreign nationals with advanced degrees to qualify for EB-2 visas.
                     </p>
                     <Link to="/contact">
                       <button>Read More</button>
@@ -81,28 +81,19 @@ const Blog = () => {
                 <div className="side-panel ">
                   <div>
                     <h1 style={{ fontSize: 17, lineHeight: 2 }}>
-                      Emphasis on Visas for Advanced Degree Holders & Skilled
-                      Workers
+                      Are you looking to Invest in the US?
                     </h1>
                     <p>
-                      The Biden administration plans to increase the number of
-                      EB-2 visas available each year. It also plans to make it
-                      easier for foreign nationals with advanced degrees to
-                      qualify for EB-2 visas.
+                      There's some good news for businesspersons looking to invest in the US via the EB-5 visa. Based on the EB-5 Reform and Integrity Act 2022, reserved visas known as 'Set-Aside Visa' have been introduced to reduce the process's waiting time for investors from high-demand countries.
                     </p>
-                    <Link to="/contact">
-                      <button>Read More</button>
-                    </Link>
+
                   </div>
                   <div>
                     <h1 style={{ fontSize: 17, lineHeight: 2 }}>
                       FANUUN: Your Partner in Immigration
                     </h1>
                     <p>
-                      We've helped countless clients successfully immigrate to
-                      the US, Canada, and beyond, and we are committed to
-                      providing high-quality consultancy services to each
-                      client.
+                      We've helped countless clients successfully immigrate to the US, Canada, and beyond.
                     </p>
                     <Link to="/contact">
                       <button>Read More</button>
@@ -119,10 +110,13 @@ const Blog = () => {
                     <img src={sec2img} alt="" />
                   </div>
                   <div className="blog-caption">
-                    <h1>
+                    <h1 style={{ color: 'black', fontSize: '26px', lineHeight: '36px' }}>
                       Preparing a Business Visa Application that’s bound to
                       succeed!
                     </h1>
+                    <p className="Familiarization">
+                      Familiarization with the Requirements – The Ideal Starting Point
+                    </p>
                     <p>
                       Each country has specific requirements for its investor or
                       startup business visa programs.
@@ -135,7 +129,7 @@ const Blog = () => {
 
                 <div className="blog-read">
                   <div className="bimg-cont">
-                    <img src={blogimg2} alt="" />
+                    <img src={guide_img} alt="" />
                   </div>
                   <div className="blog-caption">
                     <h1>Let the Experts Guide You!</h1>
