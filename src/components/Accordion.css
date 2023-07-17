@@ -1,0 +1,79 @@
+.accordion-container {
+    width: 100%;
+}
+
+.accordion-item {
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    height: 100px;
+}
+
+.accordion-title {
+    margin-right: 10px;
+    font-family: var(--font-family);
+    color: var(--color-head);
+    font-size: 17px;
+    font-weight: 500;
+    width: 90%;
+}
+
+.accordion-row {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.accordion-icon {
+    width: 14px;
+    height: 14px;
+    /* background-image: url('../assets/1.png'); */
+    /* Replace with your plus icon */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+.accordion-icon.minus {
+    /* background-image: url('../assets/2.png'); */
+}
+
+.accordion-content {
+    padding: 10px;
+}
+
+.accordion-content p {
+    font-family: var(--font-family2);
+    color: #000;
+}
+
+.accordion-icon-div {
+    background-color: rgba(242, 242, 243, 0.449);
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius:6px;
+    box-shadow: 0px 0px 10px rgb(225, 225, 225);
+}
+
+
+@media screen and (max-width: 1280px) {
+    .accordion-row {
+        flex-wrap: wrap;
+    }
+    .accordion-item  {
+        width: 100%;
+    }
+}

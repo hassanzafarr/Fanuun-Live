@@ -283,11 +283,18 @@
    justify-content: space-between;
    /* background-color: #3e397c; */
 }
+.accordion2 {
+  display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   /* background-color: #3e397c; */
+}
+
 .accordion-item-main {
   width: 31%;
 }
 .accordion-item {
-  width: 100%;
+  width: 31%;
   border-radius: 0;
   margin-top: 20px;
   border: none;
@@ -310,6 +317,10 @@
    margin-top: 5%;
 }
 
+.accordion-main1 {
+  margin-top: 5%;
+}
+
 .accordion-item:first-of-type {
   border-radius: 0;
 }
@@ -322,15 +333,30 @@
 }
 .accordion-button {
   color: #060056;
-  font-weight: 600;
+  font-weight: 500;
   font-family: var(--font-family);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 .accordion-item:last-of-type .accordion-button.collapsed {
   border-radius: 0;
 }
+ul {
+  padding-left: 1rem;
+}
+li {
+  color: #000;
+}
 .accordion-button:not(.collapsed) {
   color: #060056;
   background-color: white;
+}
+.card-body {
+  padding: 15px 0 0 0;
 }
 .card-body p {
   font-family: var(--font-family2);
