@@ -16,6 +16,7 @@
     padding: 10px;
     cursor: pointer;
     height: 100px;
+    border-bottom: 2px solid rgba(222, 222, 222, 0.888);
 }
 
 .accordion-title {
@@ -33,9 +34,18 @@
     
 }
 
+.accordion-content ul {
+    margin-top: 20px;
+}
+
+.accordion-content li {
+    font-family: var(--font-family2);
+    color: #000;
+}
+
 .accordion-icon {
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
     /* background-image: url('../assets/1.png'); */
     /* Replace with your plus icon */
     background-repeat: no-repeat;
@@ -59,11 +69,11 @@
 
 .accordion-icon-div {
     background-color: rgba(242, 242, 243, 0.449);
-    width: 60px;
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 45px;
     border-radius:6px;
     box-shadow: 0px 0px 10px rgb(225, 225, 225);
 }

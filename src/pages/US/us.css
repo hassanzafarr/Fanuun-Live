@@ -7,9 +7,11 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 5rem;
+  width: 100%;
+  /* background-color: #060056; */
 }
 .us__possibility-image {
-  flex: 1;
+  width: 45%;
   display: flex;
   /* justify-content: flex-start;
   align-items: flex-start; */
@@ -21,7 +23,8 @@
   height: 100%;
 }
 .us__possibility-content {
-  flex: 1;
+  width: 40%;
+  /* background-color: #3e397c; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,13 +50,23 @@
   margin-bottom: 2rem;
 }
 .us__section-intro-content {
-  width: 85%;
+  width: 90%;
+
+}
+.us__section-intro_main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* Section intro */
 .us__section-intro {
-  /* width: 80%; */
+  width: 75%;
+  /* margin-top: 10rem; */
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   justify-content: center;
   /* align-items: center; */
 }
@@ -83,16 +96,27 @@
 }
 
 /* Section Ability */
+
+.us__section-ability_main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
 .us__section-ability {
+  width: 75% !important;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top: 10rem;
-  border: 2px solid #262453;
+  /* margin-top: 10rem; */
+  /* border: 2px solid #262453; */
   padding: 1rem 2rem;
+  /* margin: 10rem 8rem 10rem 8rem; */
   border-radius: 20px;
-  margin-bottom: 8rem;
+  /* margin-bottom: 8rem; */
   box-shadow: 0px 0px 15px 0 lightgray;
 }
 
@@ -117,15 +141,28 @@
   /* margin-left: 2rem; */
 }
 /* New work */
+
+.usSectionMainHelp {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* background-color: #060056; */
+  background-image: url('../../assets/helpBanner.png');
+  background-size: cover;
+  margin-top: 7rem;
+}
+
 .us__section-help {
+  width: 75%;
   background-image: url(../../assets/Group_488.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px 150px 20px 20px;
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   padding: 2rem 5rem 4rem 3rem;
-  margin-top: 7rem;
+  /* margin-top: 7rem; */
   color: white;
   display: flex;
   flex-direction: column;
@@ -157,7 +194,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   background-color: #f9f9f9;
   border-radius: 20px;
   padding: 3rem 10px;
@@ -184,7 +221,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 15px;
+  gap: 25px;
   margin-top: 2rem;
   /* flex: 1; */
   /* display: grid; */
@@ -195,16 +232,17 @@
 
 /* Last Section */
 .us__possibilitytop {
-  width: 100%;
+  width: 75% !important;
   height: 300px;
   box-shadow: 0px 0px 10px 0px lightgray;
+  /* margin: 9rem 8rem 3rem 8rem; */
   display: flex;
   flex-direction: row;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
   background-color: #f9f9f9;
   border-radius: 20px;
-  margin-top: 11rem;
-  margin-bottom: 10rem;
+  /* margin-top: 11rem; */
+  /* margin-bottom: 10rem; */
 }
 .us__left-text {
   width: 70%;
@@ -252,8 +290,15 @@
   margin-left: 4rem;
 }
 
-.us_section-explore {
+.us_section-explore_main  {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.us_section-explore {
+  width: 80%;
   /* height: 500px; */
   /* background-color: #3e397c; */
   margin-top: 8%;
@@ -385,10 +430,6 @@ li {
   .us__right-image {
     width: 100%;
   }
-  .us__right-image img {
-    width: 100%;
-    height: 100%;
-  }
   .banner_content_div {
     width: 100%;
     margin: 0;
@@ -398,6 +439,10 @@ li {
   }
 }
 @media screen and (max-width: 1050px) {
+  .us__right-image img {
+    width: 60%;
+    height: 60%;
+  }
   .us__possibility {
     flex-direction: column;
     margin-bottom: 0rem;
@@ -479,5 +524,32 @@ li {
     padding: 1rem;
     margin-top: 7rem;
     margin-bottom: 7rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .us__section-intro_main {
+    /* background-color: #060056; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .us__section-intro {
+    width: 80%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    /* background-color: #060056; */
+  }
+  .us__section-intro-content h1 {
+    font-size: 25px;
+  }
+  .banner_content_div {
+    width: 90% !important;
+    /* background-color: #060056; */
+    margin-left: 15% !important;
+  }
+  .us__section-intro-content p {
+    text-align: left;
   }
 }
