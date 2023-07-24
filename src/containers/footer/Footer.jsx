@@ -61,9 +61,9 @@ const Footer = () => (
         <Link to="/privacy" className="paraFooter">
           Privacy Policy
         </Link>
-        <Link to="/blog" className="paraFooter">
+        {/* <Link to="/blog" className="paraFooter">
           Blog
-        </Link>
+        </Link> */}
       </div>
       <div className="immi__footer-links_div">
         <b>

@@ -25,9 +25,9 @@ const Navbar = () => {
           <p>
             <Link to="/about">About us</Link>
           </p>
-          <p>
+          {/* <p>
             <Link to="/blog">Blog</Link>
-          </p>
+          </p> */}
           <p>
             <Link to="/solutions">Immigration</Link>
           </p>
