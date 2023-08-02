@@ -17,7 +17,7 @@ const Stream = () => (
     <div className="about__blog-heading">
       <Fade bottom>
         <h1 className="gradient__text">
-          Streamlining the immigration process for you
+          Streamlining the immigration service process for you.
         </h1>
         <p>
           We assist you in shaping your future and simplify your experience. Our

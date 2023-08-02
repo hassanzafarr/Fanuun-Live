@@ -25,12 +25,15 @@ const Header = () => {
               // style={{
               //   backgroundImage: `url(${slider1})`,
               // }}
+              aria-label="Immigration Service"
+              alt="Immigration Service"
             >
               <div className="slide_main_content_div">
                 <div className="slider_left_div">
                   <h1>
-                    The <span className="future"> Art </span> Of <br />
-                    Immigration
+                    Immigration Services : <br />
+                    The
+                    <span className="future"> Art </span> Of Immigration
                   </h1>
                   <p>
                     Facilitating the adaptation, integration, and pursuit of
@@ -46,20 +49,22 @@ const Header = () => {
             </div>
           </div>
 
-
           <div className="each-slide-effect">
             <div
               className="slider_main_div"
               id="slider2"
-            
+              aria-label="Visa Consultation"
+              alt="Visa Consultation"
             >
               <div className="slide_main_content_div">
                 <div className="slider_left_div">
-                  <h1>Job Seeker Visa in Germany </h1>
+                  <h1>
+                    Visa Consultation:
+                    <br /> Job Seeker Visa in Germany{" "}
+                  </h1>
                   <p>
                     Explore employment & residential opportunities in Germany
                     with FANUUN
-              
                   </p>
                   <Link to="/portugal">
                     <button> More Details </button>
@@ -71,7 +76,6 @@ const Header = () => {
             </div>
           </div>
 
-
           <div className="each-slide-effect">
             <div
               className="slider_main_div"
@@ -79,6 +83,8 @@ const Header = () => {
               // style={{
               //   backgroundImage: `url(${slider3})`,
               // }}
+              aria-label="Visa Consultation"
+              alt="Visa Consultation"
             >
               <div className="slide_main_content_div">
                 <div className="slider_left_div">

@@ -9,15 +9,15 @@ const Process = () => (
       <div className="immi__possibility-content">
         <Fade left>
           <h1 className="gradient__text">
-            Streamlining the immigration process for you
+            Streamlining the immigration service process for you.
           </h1>
 
           <p>
             Facilitating the adaptation, We assist you in shaping your future
             and simplify your experience. Our expensive clientele continues to
-            expand, and we look forward to establishing a benchmark in the
-            immigration and Visa service market and pursuit of possibilities of
-            immigrants.
+            expand, and we look forward to establishing a benchmark in the visa
+            consultation and immigration service market and pursuit of
+            possibilities of immigrants.
           </p>
         </Fade>
       </div>
@@ -25,7 +25,7 @@ const Process = () => (
       <div className="immi__possibility-image">
         <Fade right>
           {/* <img src={shape5} alt="possibility" /> */}
-          <img src={gif} alt="possibility" />
+          <img src={gif} alt="Immigration Service" />
         </Fade>
       </div>
     </div>

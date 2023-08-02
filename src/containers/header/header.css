@@ -84,7 +84,6 @@
   height: 80px;
 }
 
-
 #slider1 {
   background-image: url(../../assets/slider_banner/01.gif);
 }
@@ -100,10 +99,6 @@
 #slider4 {
   background-image: url(../../assets/slider_banner/04.jpg);
 }
-
-
-
-
 
 @media screen and (max-width: 1400px) {
   .slider_banner {
@@ -177,7 +172,6 @@
     font-size: 24px;
   }
 
-
   #slider1 {
     background-image: url(../../assets/slider_banner/Phone\ banner\ 01.gif);
   }
@@ -194,8 +188,7 @@
     background-image: url(../../assets/slider_banner/Phone-banner-04.jpg);
   }
 
-  .slider4_inner_icon_div{
+  .slider4_inner_icon_div {
     gap: 30px;
   }
-
 }
