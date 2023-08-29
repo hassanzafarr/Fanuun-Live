@@ -6,9 +6,14 @@ import { Navbar } from "../../components";
 import { Footer } from "../../containers";
 import Position from "./Positions";
 import image from "../../assets/line.png";
+import { Helmet } from "react-helmet";
 
 const Career = () => {
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Career</title>
+    </Helmet>
     <div className="career__expect-main">
       <Navbar />
       <div
@@ -62,6 +67,8 @@ const Career = () => {
       </div>
       <Footer />
     </div>
+    </>
+
   );
 };
 

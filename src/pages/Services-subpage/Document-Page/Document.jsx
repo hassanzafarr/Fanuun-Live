@@ -10,6 +10,8 @@ import edugirl from "../../../assets/girlsit.svg";
 import { Info } from "./../../../components/info/Info";
 import CTA from "./../../../components/cta/CTA";
 import Fade from "react-reveal/Fade";
+import {Helmet} from 'react-helmet'
+
 const Document = () => {
   const data = [
     "Birth Certificate (NADRA)",
@@ -30,6 +32,10 @@ const Document = () => {
   ];
 
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Document Services</title>
+    </Helmet>
     <div className="screening__main-container">
       <Navbar />
       <div className="main__container">
@@ -94,6 +100,7 @@ const Document = () => {
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />
     </div>
+    </>
   );
 };
 

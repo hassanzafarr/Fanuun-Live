@@ -21,10 +21,15 @@ import bulb from "../../assets/Group 480.svg";
 import Compo1 from "../../components/compo1";
 import Compo2 from "../../components/compo2";
 import Accordion from "../../components/Accordion";
+import {Helmet} from 'react-helmet'
 
 
 
 const US = () => (
+  <>
+  <Helmet>
+    <title>FANUUN | US</title>
+  </Helmet>
   <div className="us__main-container ">
     <Navbar />
     <div className="main__container">
@@ -768,6 +773,7 @@ const US = () => (
     {/* <Brand /> */}
     <Footer />
   </div>
+  </>
 );
 
 export default US;

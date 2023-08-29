@@ -2,9 +2,14 @@ import React from "react";
 
 import { Widget } from "@typeform/embed-react";
 import "./test.css";
+import {Helmet} from 'react-helmet'
 
 export default function Test() {
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Test</title>
+    </Helmet>
     <div className="formContainer">
       <Widget
         id="https://hebbccturah.typeform.com/to/MT61Gp4c"
@@ -12,6 +17,7 @@ export default function Test() {
         className="my-form"
       />
     </div>
+    </>
   );
 }
 

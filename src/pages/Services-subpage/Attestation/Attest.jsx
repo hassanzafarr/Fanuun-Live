@@ -23,6 +23,7 @@ import pharmacy from "../../../assets/pharmacy.svg";
 import wavy from "../../../assets/wavyy.svg";
 import line from "../../../assets/line.png";
 import CTA from "./../../../components/cta/CTA";
+import {Helmet} from 'react-helmet'
 
 const Attest = () => {
   const data = [
@@ -42,6 +43,10 @@ const Attest = () => {
   ];
 
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Attestation Services</title>
+    </Helmet>
     <div className="attest__main-container">
       <Navbar />
       <div className="main__container">
@@ -244,6 +249,7 @@ institutions, such as:"
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />
     </div>
+    </>
   );
 };
 

@@ -19,9 +19,14 @@ import driver from "../../../assets/s-driver.svg";
 import civil from "../../../assets/s-civl.svg";
 import CTA from "./../../../components/cta/CTA";
 import Fade from "react-reveal/Fade";
+import {Helmet} from 'react-helmet'
 
 const Screening = () => {
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Screening Services</title>
+    </Helmet>
     <div className="screening__main-container">
       <Navbar />
       <div className="main__container">
@@ -132,6 +137,7 @@ const Screening = () => {
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />
     </div>
+    </>
   );
 };
 

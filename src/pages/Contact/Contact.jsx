@@ -10,6 +10,7 @@ import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
  
@@ -75,6 +76,10 @@ const Contact = () => {
   };
 
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Contact</title>
+    </Helmet>
     <div className="contact__main-container">
       <Navbar />
       <div
@@ -171,6 +176,8 @@ const Contact = () => {
 
       <Footer />
     </div>
+    </>
+
   );
 };
 

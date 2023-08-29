@@ -13,10 +13,15 @@ import fast from "../../assets/generalIcons/14.svg";
 import lower from "../../assets/generalIcons/15.svg";
 import six from "../../assets/generalIcons/16.svg";
 import passport from "../../assets/passport.png";
+import {Helmet} from 'react-helmet'
 
 import { CTA } from "../../components";
 
 const UAE = () => (
+  <>
+  <Helmet>
+    <title>FANUUN | UAE</title>
+  </Helmet>
   <div className="uae__main-container">
     <Navbar />
     {/* <div className="main__container">
@@ -188,6 +193,8 @@ const UAE = () => (
     <CTA htag="Are You Interested in " red=" Visa Applications?" />
     <Footer />
   </div>
+  </>
+
 );
 
 export default UAE;

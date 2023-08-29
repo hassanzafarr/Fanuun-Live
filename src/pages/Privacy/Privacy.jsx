@@ -10,6 +10,8 @@ import docimg from "../../assets/policy.png";
 import { Info } from "../../components/info/Info";
 import CTA from "../../components/cta/CTA";
 import Fade from "react-reveal/Fade";
+import {Helmet} from 'react-helmet'
+
 const Privacy = () => {
   const data =
     "We may collect basic information about our clients, such as name and contact information, through account creation, interests, and preferences, to provide a personalized experience.";
@@ -36,6 +38,10 @@ const Privacy = () => {
     "By accessing and using our website, you agree to the contents of this policy. You also acknowledge that FANUUN has the right to change, add, modify, or omit portions from our policy at our discretion.",
   ];
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Privacy Policy</title>
+    </Helmet>
     <div className="screening__main-container">
       <Navbar />
       <div className="main__container">
@@ -103,6 +109,7 @@ const Privacy = () => {
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />
     </div>
+    </>
   );
 };
 

@@ -8,8 +8,13 @@ import Expect from "./Expect.jsx";
 import Stream from "./Stream";
 import { CTA, Navbar } from "../../components";
 import { Footer } from "../../containers";
+import { Helmet } from "react-helmet";
 
 const About = () => (
+  <>
+       <Helmet>
+          <title>FANUUN | About</title>
+      </Helmet>
   <div className="about__expect-main">
     <Navbar />
     <div className="main__container">
@@ -118,6 +123,8 @@ const About = () => (
     
     <Footer />
   </div>
+  </>
+
 );
 
 export default About;

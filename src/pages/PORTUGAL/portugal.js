@@ -17,10 +17,14 @@ import Documents from "../../assets/generalIcons/7.svg";
 import Consulate from "../../assets/generalIcons/8.svg";
 import Submission from "../../assets/generalIcons/9.svg";
 import VisaIssuance from "../../assets/generalIcons/10.svg";
-
+import {Helmet} from 'react-helmet'
 import { CTA } from "./../../components";
 
 const PORTUGAL = () => (
+  <>
+  <Helmet>
+    <title>FANUUN | Portugal</title>
+  </Helmet>
   <div className="portugal__main-container">
     <Navbar />
     <div className="main__container">
@@ -274,6 +278,7 @@ const PORTUGAL = () => (
     <CTA htag="Are You Interested in " red=" Visa Applications?" />
     <Footer />
   </div>
+  </>
 );
 
 export default PORTUGAL;

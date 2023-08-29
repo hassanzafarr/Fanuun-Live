@@ -21,7 +21,7 @@ import letter from "../../assets/letter.svg";
 import insurance from "../../assets/insurance.svg";
 import financial from "../../assets/financial.svg";
 import paymant from "../../assets/paymant.svg";
-
+import {Helmet} from 'react-helmet'
 
 
 import { CTA } from "./../../components";
@@ -29,6 +29,10 @@ import { Link } from "react-router-dom";
 
 const GERMANY = () => {
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Germany</title>
+    </Helmet>
     <div className="germany__main-container">
       <Navbar />
       <div className="main__container">
@@ -324,6 +328,7 @@ const GERMANY = () => {
 
       <Footer />
     </div>
+    </>
   );
 }
 

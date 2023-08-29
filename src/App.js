@@ -28,10 +28,17 @@ import Test from "./pages/Test/Test";
 import ScrollToTop from "./ScrollToTop";
 import Privacy from "./pages/Privacy/Privacy";
 import PORTUGAL from "./pages/PORTUGAL/portugal";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+          <title>FANUUN | Premier Global Immigration & Visa Consultation Services</title>
+          <meta name="FANUUN | Premier Global Visa Consultation & Immigration Service" 
+          content="Unlock Your Passport to Boundless Horizons with FANUUN's finest global visa consultation and immigration services" />
+      </Helmet>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />

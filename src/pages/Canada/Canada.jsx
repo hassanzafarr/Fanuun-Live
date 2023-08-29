@@ -15,6 +15,7 @@ import { Info } from "../../components/info/Info";
 import can1 from "../../assets/can-1.png";
 import can2 from "../../assets/can-2.png";
 import can3 from "../../assets/can-3.png";
+import {Helmet} from 'react-helmet'
 
 import { WhyFanuun } from "./../../containers";
 import FinancialRequirements from "../../components/financialRequirements/financialRequirements ";
@@ -40,6 +41,10 @@ const Canada = () => {
     "Explain the present state of the business – idea phase? Product prototype phase?",
   ];
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Canada</title>
+    </Helmet>
     <div className="canada-wrapper">
       <div className="canada__main-container">
         <Navbar />
@@ -481,6 +486,7 @@ const Canada = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 export default Canada;

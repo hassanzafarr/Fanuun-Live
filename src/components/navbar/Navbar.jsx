@@ -16,7 +16,9 @@ const Navbar = () => {
     <div className="immi__navbar">
       <div className="immi__navbar-links">
         <div className="immi__navbar-links_logo">
-          <img src={logo} alt="logo" />
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
         </div>
         <div className="immi__navbar-links_container">
           <p>

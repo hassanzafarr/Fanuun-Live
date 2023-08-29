@@ -17,6 +17,7 @@ import CTA from "../../components/cta/CTA";
 import BlogComp from "../../components/blog-comp/blog-comp";
 import { Info } from "../../components/info/Info";
 import can1 from "../../assets/last-sec.png";
+import {Helmet} from 'react-helmet'
 
 const Blog = () => {
   const data = [
@@ -29,6 +30,10 @@ const Blog = () => {
   const data2 =
     "The UK offers two excellent business visa options: the Start-Up Visa and the Innovator Founder Visa. These visas allow entrepreneurs to establish an innovative business in the UK and stay there for 2-3 years.";
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Blog</title>
+    </Helmet>
     <div className="screening__main-container">
       <Navbar />
       <div className="main__container">
@@ -198,6 +203,7 @@ const Blog = () => {
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />
     </div>
+    </>
   );
 };
 

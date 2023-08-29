@@ -41,6 +41,7 @@ import human from "../../assets/in-human.png";
 import post from "../../assets/in-post.png";
 import pro from "../../assets/in-pro.png";
 import vision from "../../assets/vison.png";
+import {Helmet} from 'react-helmet'
 
 function Formation() {
   const [name, setName] = useState("");
@@ -108,6 +109,10 @@ function Formation() {
   };
 
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Formation</title>
+    </Helmet>
     <div className="formation-main">
       <Navbar />
       <div className="main__container">
@@ -522,6 +527,7 @@ function Formation() {
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />
     </div>
+    </>
   );
 }
 

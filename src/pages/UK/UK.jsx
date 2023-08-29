@@ -15,8 +15,13 @@ import flexible from "../../assets/flexible.svg";
 import startup from "../../assets/Startup.svg";
 import innovate from "../../assets/Innovator.svg";
 import { Link } from "react-router-dom";
+import {Helmet} from 'react-helmet'
 
 const UK = () => (
+  <>
+  <Helmet>
+    <title>FANUUN | UK</title>
+  </Helmet>
   <div className="uk__main-container">
     <Navbar />
     <div className="main__container">
@@ -182,6 +187,8 @@ const UK = () => (
 
     <Footer />
   </div>
+  </>
+
 );
 
 export default UK;

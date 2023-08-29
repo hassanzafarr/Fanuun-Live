@@ -13,8 +13,15 @@ import { CTA, Navbar } from "../../components";
 import { Footer } from "../../containers";
 import Reloc from "./Reloc";
 import Stream from "../About/Stream";
+import { Helmet } from "react-helmet";
+
 
 const Services = () => (
+  <>
+     <Helmet>
+          <title>FANUUN | Immigration</title>
+      </Helmet>
+  
   <div className="services__expect-main">
     <Navbar />
     <div className="main__container">
@@ -185,6 +192,7 @@ const Services = () => (
     {/* <Brand /> */}
     <Footer />
   </div>
+  </>
 );
 
 export default Services;

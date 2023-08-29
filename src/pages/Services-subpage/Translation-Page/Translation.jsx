@@ -13,6 +13,8 @@ import { Info } from "./../../../components/info/Info";
 import right from "../../../assets/rightwavy.svg";
 import CTA from "./../../../components/cta/CTA";
 import Fade from "react-reveal/Fade";
+import {Helmet} from 'react-helmet'
+
 const Translation = () => {
   const data2 = [
     "ID Card",
@@ -41,6 +43,10 @@ const Translation = () => {
   ];
 
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Translation Services</title>
+    </Helmet>
     <div className="screening__main-container">
       <Navbar />
       <div className="main__container">
@@ -145,6 +151,7 @@ const Translation = () => {
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />
     </div>
+    </>
   );
 };
 export default Translation;

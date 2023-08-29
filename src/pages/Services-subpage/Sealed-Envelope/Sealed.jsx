@@ -11,9 +11,14 @@ import hec from "../../../assets/hec.svg";
 import back from "../../../assets/backimage.svg";
 import CTA from "./../../../components/cta/CTA";
 import Fade from "react-reveal/Fade";
+import {Helmet} from 'react-helmet'
 
 const Sealed = () => {
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | Sealed Envelope Services</title>
+    </Helmet>
     <div className="screening__main-container">
       <Navbar />
       <div className="main__container">
@@ -82,6 +87,7 @@ const Sealed = () => {
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />
     </div>
+    </>
   );
 };
 

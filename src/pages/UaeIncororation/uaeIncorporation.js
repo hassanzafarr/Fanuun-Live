@@ -16,6 +16,7 @@ import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import ReCAPTCHA from "react-google-recaptcha";
 import withReactContent from "sweetalert2-react-content";
+import {Helmet} from 'react-helmet'
 
 const UaeIncorporation = () => {
   const [name, setName] = useState("");
@@ -82,6 +83,10 @@ const UaeIncorporation = () => {
     }
   };
   return (
+    <>
+    <Helmet>
+      <title>FANUUN | UaeIncorporation</title>
+    </Helmet>
     <div className="uae__main-container">
       <Navbar />
       <div className="uae__incorporation-main  ">
@@ -328,6 +333,7 @@ const UaeIncorporation = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 
 }
