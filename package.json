@@ -25,6 +25,7 @@
     "react-dom": "^18.2.0",
     "react-google-recaptcha": "^2.1.0",
     "react-head": "^3.4.2",
+    "react-helmet": "^6.1.0",
     "react-icons": "^4.7.1",
     "react-lottie": "^1.2.3",
     "react-remove-scroll-bar": "^2.3.4",
