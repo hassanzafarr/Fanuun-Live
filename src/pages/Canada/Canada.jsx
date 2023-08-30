@@ -227,7 +227,8 @@ const Canada = () => {
             <FinancialRequirements />
             <div
               className="us__section-ability"
-              style={{ borderColor: "white" }}
+              style={{ borderColor: "white" }} 
+              
             >
               <div className="us__section-ability-content">
                 <Fade bottom>

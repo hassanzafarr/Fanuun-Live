@@ -29,6 +29,7 @@ import ScrollToTop from "./ScrollToTop";
 import Privacy from "./pages/Privacy/Privacy";
 import PORTUGAL from "./pages/PORTUGAL/portugal";
 import { Helmet } from "react-helmet";
+import ScrollTopArrow  from './components/scroll-top-arrow/ScrollTopArrow'
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           content="Unlock Your Passport to Boundless Horizons with FANUUN's finest global visa consultation and immigration services" />
       </Helmet>
       <ScrollToTop />
+      {/* <ScrollTopArrow /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/solutions" element={<Services />} />
